@@ -1,0 +1,39 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from voxblox_msgs/msg/Layer.msg
+// generated code does not contain a copyright notice
+
+#include "voxblox_msgs/msg/Block.idl"
+
+module voxblox_msgs {
+  module msg {
+    module Layer_Constants {
+      @verbatim (language="comment", text=
+        "Action definitions" "\n"        "Update all blocks that are part of this message to the new state," "\n"        "leave the rest of the map as it was.")
+      const uint8 ACTION_UPDATE = 0;
+      @verbatim (language="comment", text=
+        "Merge all blocks that are part of this message with the current state of" "\n"        "the map, leave the rest of the map as it was.")
+      const uint8 ACTION_MERGE = 1;
+      @verbatim (language="comment", text=
+        "Set the layer to the state described by this message.")
+      const uint8 ACTION_RESET = 2;
+    };
+    @verbatim (language="comment", text=
+      "Layer definitions")
+    struct Layer {
+      double voxel_size;
+
+      uint32 voxels_per_side;
+
+      @verbatim (language="comment", text=
+        "See voxblox::voxel_types")
+      string layer_type;
+
+      @verbatim (language="comment", text=
+        "Whether to send a full map or an incremental update." "\n"
+        "See action defines below")
+      uint8 action;
+
+      sequence<voxblox_msgs::msg::Block> blocks;
+    };
+  };
+};

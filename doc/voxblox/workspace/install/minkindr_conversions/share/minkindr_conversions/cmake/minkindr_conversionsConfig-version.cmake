@@ -1,0 +1,1 @@
+/home/imit-learn/workspace/build/minkindr_conversions/ament_cmake_core/minkindr_conversionsConfig-version.cmake

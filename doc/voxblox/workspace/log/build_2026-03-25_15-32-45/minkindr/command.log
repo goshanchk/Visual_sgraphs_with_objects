@@ -1,0 +1,4 @@
+Invoking command in '/home/imit-learn/workspace/build/minkindr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/imit-learn/workspace/build/minkindr -- -j32 -l32
+Invoked command in '/home/imit-learn/workspace/build/minkindr' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/imit-learn/workspace/build/minkindr -- -j32 -l32
+Invoking command in '/home/imit-learn/workspace/build/minkindr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --install /home/imit-learn/workspace/build/minkindr
+Invoked command in '/home/imit-learn/workspace/build/minkindr' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --install /home/imit-learn/workspace/build/minkindr

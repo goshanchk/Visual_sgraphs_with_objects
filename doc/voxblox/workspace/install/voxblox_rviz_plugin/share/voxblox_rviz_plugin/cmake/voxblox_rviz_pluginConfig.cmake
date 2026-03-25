@@ -1,0 +1,1 @@
+/home/imit-learn/workspace/build/voxblox_rviz_plugin/ament_cmake_core/voxblox_rviz_pluginConfig.cmake

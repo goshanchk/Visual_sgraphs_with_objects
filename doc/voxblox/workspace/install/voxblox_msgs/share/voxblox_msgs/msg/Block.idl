@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from voxblox_msgs/msg/Block.msg
+// generated code does not contain a copyright notice
+
+
+module voxblox_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Block indices -- as integers, actual position in space is function of" "\n"
+      "the voxel_size in the layer and voxels_per_side in the layer.")
+    struct Block {
+      int32 x_index;
+
+      int32 y_index;
+
+      int32 z_index;
+
+      @verbatim (language="comment", text=
+        "Voxel data packed in 4-byte chunks to better mirror protobuf serialization.")
+      sequence<uint32> data;
+    };
+  };
+};

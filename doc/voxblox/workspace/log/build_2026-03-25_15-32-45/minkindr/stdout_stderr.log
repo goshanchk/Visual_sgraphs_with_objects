@@ -1,0 +1,30 @@
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/imit-learn/workspace/install/minkindr/include/kindr/minimal/angle-axis.h
+-- Symlinking: /home/imit-learn/workspace/install/minkindr/include/kindr/minimal/common.h
+-- Symlinking: /home/imit-learn/workspace/install/minkindr/include/kindr/minimal/implementation/angle-axis-inl.h
+-- Symlinking: /home/imit-learn/workspace/install/minkindr/include/kindr/minimal/implementation/quat-sim-transform-inl.h
+-- Symlinking: /home/imit-learn/workspace/install/minkindr/include/kindr/minimal/implementation/quat-transformation-inl.h
+-- Symlinking: /home/imit-learn/workspace/install/minkindr/include/kindr/minimal/implementation/rotation-quaternion-inl.h
+-- Symlinking: /home/imit-learn/workspace/install/minkindr/include/kindr/minimal/implementation/transform-2d-inl.h
+-- Symlinking: /home/imit-learn/workspace/install/minkindr/include/kindr/minimal/position.h
+-- Symlinking: /home/imit-learn/workspace/install/minkindr/include/kindr/minimal/quat-sim-transform.h
+-- Symlinking: /home/imit-learn/workspace/install/minkindr/include/kindr/minimal/quat-transformation.h
+-- Symlinking: /home/imit-learn/workspace/install/minkindr/include/kindr/minimal/rotation-quaternion.h
+-- Symlinking: /home/imit-learn/workspace/install/minkindr/include/kindr/minimal/transform-2d.h
+-- Symlinking: /home/imit-learn/workspace/install/minkindr/share/ament_index/resource_index/package_run_dependencies/minkindr
+-- Symlinking: /home/imit-learn/workspace/install/minkindr/share/ament_index/resource_index/parent_prefix_path/minkindr
+-- Symlinking: /home/imit-learn/workspace/install/minkindr/share/minkindr/environment/ament_prefix_path.sh
+-- Symlinking: /home/imit-learn/workspace/install/minkindr/share/minkindr/environment/ament_prefix_path.dsv
+-- Symlinking: /home/imit-learn/workspace/install/minkindr/share/minkindr/environment/path.sh
+-- Symlinking: /home/imit-learn/workspace/install/minkindr/share/minkindr/environment/path.dsv
+-- Symlinking: /home/imit-learn/workspace/install/minkindr/share/minkindr/local_setup.bash
+-- Symlinking: /home/imit-learn/workspace/install/minkindr/share/minkindr/local_setup.sh
+-- Symlinking: /home/imit-learn/workspace/install/minkindr/share/minkindr/local_setup.zsh
+-- Symlinking: /home/imit-learn/workspace/install/minkindr/share/minkindr/local_setup.dsv
+-- Symlinking: /home/imit-learn/workspace/install/minkindr/share/minkindr/package.dsv
+-- Symlinking: /home/imit-learn/workspace/install/minkindr/share/ament_index/resource_index/packages/minkindr
+-- Symlinking: /home/imit-learn/workspace/install/minkindr/share/minkindr/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/imit-learn/workspace/install/minkindr/share/minkindr/cmake/minkindrConfig.cmake
+-- Symlinking: /home/imit-learn/workspace/install/minkindr/share/minkindr/cmake/minkindrConfig-version.cmake
+-- Symlinking: /home/imit-learn/workspace/install/minkindr/share/minkindr/package.xml

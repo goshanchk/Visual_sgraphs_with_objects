@@ -1,0 +1,97 @@
+[0.037s] Invoking command in '/home/imit-learn/workspace/build/voxblox': AMENT_PREFIX_PATH=/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/imit-learn/workspace/install/eigen_checks/lib:${LD_LIBRARY_PATH} _=/usr/bin/env /usr/bin/cmake --build /home/imit-learn/workspace/build/voxblox -- -j32 -l32
+[0.130s] [  9%] Built target voxblox_proto
+[0.132s] [ 13%] Built target gtest
+[0.132s] [ 16%] Built target gtest_main
+[0.217s] [ 58%] Built target voxblox
+[0.298s] [ 62%] Built target test_tsdf_interpolator
+[0.308s] [ 66%] Built target test_layer
+[0.313s] [ 69%] Built target test_protobuf
+[0.314s] [ 73%] Built target tsdf_to_esdf
+[0.317s] [ 77%] Built target test_merge_integration
+[0.322s] [ 81%] Built target test_layer_utils
+[0.322s] [ 84%] Built target test_sdf_integrators
+[0.330s] [ 88%] Built target test_bucket_queue
+[0.330s] [ 92%] Built target test_approx_hash_array
+[0.331s] [ 96%] Built target test_tsdf_map
+[0.332s] [100%] Built target test_clear_spheres
+[0.339s] Invoked command in '/home/imit-learn/workspace/build/voxblox' returned '0': AMENT_PREFIX_PATH=/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/imit-learn/workspace/install/eigen_checks/lib:${LD_LIBRARY_PATH} _=/usr/bin/env /usr/bin/cmake --build /home/imit-learn/workspace/build/voxblox -- -j32 -l32
+[0.340s] Invoking command in '/home/imit-learn/workspace/build/voxblox': AMENT_PREFIX_PATH=/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/imit-learn/workspace/install/eigen_checks/lib:${LD_LIBRARY_PATH} _=/usr/bin/env /usr/bin/cmake --install /home/imit-learn/workspace/build/voxblox
+[0.345s] -- Install configuration: "Release"
+[0.345s] -- Execute custom install script
+[0.345s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/alignment/icp.h
+[0.351s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/core/block.h
+[0.356s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/core/block_hash.h
+[0.359s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/core/block_inl.h
+[0.363s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/core/color.h
+[0.367s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/core/common.h
+[0.372s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/core/esdf_map.h
+[0.376s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/core/layer.h
+[0.381s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/core/layer_inl.h
+[0.385s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/core/occupancy_map.h
+[0.389s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/core/tsdf_map.h
+[0.394s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/core/voxel.h
+[0.399s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/integrator/esdf_integrator.h
+[0.404s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/integrator/esdf_occ_integrator.h
+[0.407s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/integrator/integrator_utils.h
+[0.413s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/integrator/intensity_integrator.h
+[0.417s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/integrator/merge_integration.h
+[0.421s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/integrator/occupancy_integrator.h
+[0.426s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/integrator/tsdf_integrator.h
+[0.430s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/interpolator/interpolator.h
+[0.436s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/interpolator/interpolator_inl.h
+[0.439s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/io/layer_io.h
+[0.444s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/io/layer_io_inl.h
+[0.448s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/io/mesh_ply.h
+[0.453s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/io/ply_writer.h
+[0.457s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/io/sdf_ply.h
+[0.462s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/mesh/README.md
+[0.468s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/mesh/marching_cubes.h
+[0.471s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/mesh/mesh.h
+[0.476s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/mesh/mesh_integrator.h
+[0.480s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/mesh/mesh_layer.h
+[0.485s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/mesh/mesh_utils.h
+[0.489s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/simulation/objects.h
+[0.493s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/simulation/simulation_world.h
+[0.496s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/simulation/simulation_world_inl.h
+[0.500s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/test/layer_test_utils.h
+[0.503s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/utils/approx_hash_array.h
+[0.507s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/utils/bucket_queue.h
+[0.510s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/utils/camera_model.h
+[0.514s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/utils/color_maps.h
+[0.517s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/utils/distance_utils.h
+[0.520s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/utils/evaluation_utils.h
+[0.524s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/utils/layer_utils.h
+[0.527s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/utils/meshing_utils.h
+[0.533s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/utils/neighbor_tools.h
+[0.539s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/utils/planning_utils.h
+[0.544s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/utils/planning_utils_inl.h
+[0.549s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/utils/protobuf_utils.h
+[0.554s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/utils/timing.h
+[0.560s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/utils/voxel_utils.h
+[0.565s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/environment/library_path.sh
+[0.571s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/environment/library_path.dsv
+[0.576s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/lib/libvoxblox_proto.a
+[0.581s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/lib/libvoxblox.a
+[0.586s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/share/ament_index/resource_index/package_run_dependencies/voxblox
+[0.592s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/share/ament_index/resource_index/parent_prefix_path/voxblox
+[0.597s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/environment/ament_prefix_path.sh
+[0.603s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/environment/ament_prefix_path.dsv
+[0.607s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/environment/path.sh
+[0.611s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/environment/path.dsv
+[0.616s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/local_setup.bash
+[0.620s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/local_setup.sh
+[0.625s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/local_setup.zsh
+[0.630s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/local_setup.dsv
+[0.643s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/package.dsv
+[0.648s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/share/ament_index/resource_index/packages/voxblox
+[0.651s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.655s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.660s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/cmake/ament_cmake_export_libraries-extras.cmake
+[0.665s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/cmake/voxbloxConfig.cmake
+[0.670s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/cmake/voxbloxConfig-version.cmake
+[0.674s] -- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/package.xml
+[0.679s] -- Up-to-date: /home/imit-learn/workspace/install/voxblox/include/
+[0.679s] -- Up-to-date: /home/imit-learn/workspace/install/voxblox/include//voxblox
+[0.679s] -- Installing: /home/imit-learn/workspace/install/voxblox/include//voxblox/Block.pb.h
+[0.679s] -- Installing: /home/imit-learn/workspace/install/voxblox/include//voxblox/Layer.pb.h
+[0.680s] Invoked command in '/home/imit-learn/workspace/build/voxblox' returned '0': AMENT_PREFIX_PATH=/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/imit-learn/workspace/install/eigen_checks/lib:${LD_LIBRARY_PATH} _=/usr/bin/env /usr/bin/cmake --install /home/imit-learn/workspace/build/voxblox

@@ -1,0 +1,30 @@
+[0.031s] Invoking command in '/home/imit-learn/workspace/build/minkindr_conversions': AMENT_PREFIX_PATH=/home/imit-learn/workspace/install/xmlrpcpp:/home/imit-learn/workspace/install/minkindr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imit-learn/workspace/install/xmlrpcpp:/home/imit-learn/workspace/install/minkindr:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/imit-learn/workspace/install/xmlrpcpp/lib:${LD_LIBRARY_PATH} _=/usr/bin/env /usr/bin/cmake --build /home/imit-learn/workspace/build/minkindr_conversions -- -j32 -l32
+[0.124s] [ 25%] Built target gtest
+[0.125s] [ 50%] Built target gtest_main
+[0.194s] [ 75%] Built target kindr_msg_test
+[0.196s] [100%] Built target kindr_tf_test
+[0.205s] Invoked command in '/home/imit-learn/workspace/build/minkindr_conversions' returned '0': AMENT_PREFIX_PATH=/home/imit-learn/workspace/install/xmlrpcpp:/home/imit-learn/workspace/install/minkindr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imit-learn/workspace/install/xmlrpcpp:/home/imit-learn/workspace/install/minkindr:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/imit-learn/workspace/install/xmlrpcpp/lib:${LD_LIBRARY_PATH} _=/usr/bin/env /usr/bin/cmake --build /home/imit-learn/workspace/build/minkindr_conversions -- -j32 -l32
+[0.206s] Invoking command in '/home/imit-learn/workspace/build/minkindr_conversions': AMENT_PREFIX_PATH=/home/imit-learn/workspace/install/xmlrpcpp:/home/imit-learn/workspace/install/minkindr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imit-learn/workspace/install/xmlrpcpp:/home/imit-learn/workspace/install/minkindr:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/imit-learn/workspace/install/xmlrpcpp/lib:${LD_LIBRARY_PATH} _=/usr/bin/env /usr/bin/cmake --install /home/imit-learn/workspace/build/minkindr_conversions
+[0.210s] -- Install configuration: "Release"
+[0.211s] -- Execute custom install script
+[0.211s] -- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/include/minkindr_conversions/kindr_msg.h
+[0.215s] -- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/include/minkindr_conversions/kindr_tf.h
+[0.219s] -- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/include/minkindr_conversions/kindr_xml.h
+[0.226s] -- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/ament_index/resource_index/package_run_dependencies/minkindr_conversions
+[0.232s] -- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/ament_index/resource_index/parent_prefix_path/minkindr_conversions
+[0.237s] -- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/environment/ament_prefix_path.sh
+[0.242s] -- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/environment/ament_prefix_path.dsv
+[0.246s] -- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/environment/path.sh
+[0.251s] -- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/environment/path.dsv
+[0.256s] -- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/local_setup.bash
+[0.260s] -- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/local_setup.sh
+[0.266s] -- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/local_setup.zsh
+[0.270s] -- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/local_setup.dsv
+[0.274s] -- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/package.dsv
+[0.280s] -- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/ament_index/resource_index/packages/minkindr_conversions
+[0.285s] -- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.290s] -- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.296s] -- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/cmake/minkindr_conversionsConfig.cmake
+[0.302s] -- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/cmake/minkindr_conversionsConfig-version.cmake
+[0.309s] -- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/package.xml
+[0.316s] Invoked command in '/home/imit-learn/workspace/build/minkindr_conversions' returned '0': AMENT_PREFIX_PATH=/home/imit-learn/workspace/install/xmlrpcpp:/home/imit-learn/workspace/install/minkindr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imit-learn/workspace/install/xmlrpcpp:/home/imit-learn/workspace/install/minkindr:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/imit-learn/workspace/install/xmlrpcpp/lib:${LD_LIBRARY_PATH} _=/usr/bin/env /usr/bin/cmake --install /home/imit-learn/workspace/build/minkindr_conversions

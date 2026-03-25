@@ -1,0 +1,32 @@
+[  0%] Built target voxblox_rviz_plugin_autogen_timestamp_deps
+[ 16%] Built target voxblox_rviz_plugin_autogen
+[100%] Built target voxblox_rviz_plugin
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/plugin_description.xml
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/icons/classes/VoxbloxMesh.png
+-- Up-to-date symlink: /home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin//plugin_description.xml
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_rviz_plugin/include/voxblox_rviz_plugin/voxblox_mesh_display.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_rviz_plugin/include/voxblox_rviz_plugin/voxblox_mesh_visual.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/environment/library_path.sh
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/environment/library_path.dsv
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_rviz_plugin/lib/libvoxblox_rviz_plugin.so
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_rviz_plugin/share/ament_index/resource_index/package_run_dependencies/voxblox_rviz_plugin
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_rviz_plugin/share/ament_index/resource_index/parent_prefix_path/voxblox_rviz_plugin
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/environment/ament_prefix_path.sh
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/environment/ament_prefix_path.dsv
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/environment/path.sh
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/environment/path.dsv
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/local_setup.bash
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/local_setup.sh
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/local_setup.zsh
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/local_setup.dsv
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/package.dsv
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_rviz_plugin/share/ament_index/resource_index/packages/voxblox_rviz_plugin
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_rviz_plugin/share/ament_index/resource_index/rviz_common__pluginlib__plugin/voxblox_rviz_plugin
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/cmake/voxblox_rviz_pluginConfig.cmake
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/cmake/voxblox_rviz_pluginConfig-version.cmake
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/package.xml

@@ -1,0 +1,1 @@
+/home/imit-learn/workspace/build/xmlrpcpp/ament_cmake_environment_hooks/local_setup.bash

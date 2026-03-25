@@ -1,0 +1,40 @@
+[  7%] Built target eigen_checks
+[ 15%] Built target gtest
+[ 23%] Built target gtest_main
+[ 30%] Built target test_gtest_equal
+[ 38%] Built target test_glog-zero-sized-types
+[ 46%] Built target test_gtest-zero-sized-types
+[ 53%] Built target test_gtest_zero
+[ 61%] Built target test_glog_near
+[ 69%] Built target test_gtest_near
+[ 76%] Built target test_glog_equal
+[ 84%] Built target test_glog_zero
+[ 92%] Built target test_glog_equal_double
+[100%] Built target test_gtest_equal_double
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/imit-learn/workspace/install/eigen_checks/include/eigen-checks/entrypoint.h
+-- Symlinking: /home/imit-learn/workspace/install/eigen_checks/include/eigen-checks/glog.h
+-- Symlinking: /home/imit-learn/workspace/install/eigen_checks/include/eigen-checks/gtest.h
+-- Symlinking: /home/imit-learn/workspace/install/eigen_checks/include/eigen-checks/internal/gtest-equal.h
+-- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/environment/library_path.sh
+-- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/environment/library_path.dsv
+-- Symlinking: /home/imit-learn/workspace/install/eigen_checks/lib/libeigen_checks.a
+-- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/ament_index/resource_index/package_run_dependencies/eigen_checks
+-- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/ament_index/resource_index/parent_prefix_path/eigen_checks
+-- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/environment/ament_prefix_path.sh
+-- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/environment/ament_prefix_path.dsv
+-- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/environment/path.sh
+-- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/environment/path.dsv
+-- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/local_setup.bash
+-- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/local_setup.sh
+-- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/local_setup.zsh
+-- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/local_setup.dsv
+-- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/package.dsv
+-- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/ament_index/resource_index/packages/eigen_checks
+-- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/cmake/eigen_checksConfig.cmake
+-- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/cmake/eigen_checksConfig-version.cmake
+-- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/package.xml

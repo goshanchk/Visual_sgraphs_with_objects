@@ -1,0 +1,4 @@
+Invoking command in '/home/imit-learn/workspace/build/voxblox_msgs': _=/usr/bin/env /usr/bin/cmake --build /home/imit-learn/workspace/build/voxblox_msgs -- -j32 -l32
+Invoked command in '/home/imit-learn/workspace/build/voxblox_msgs' returned '0': _=/usr/bin/env /usr/bin/cmake --build /home/imit-learn/workspace/build/voxblox_msgs -- -j32 -l32
+Invoking command in '/home/imit-learn/workspace/build/voxblox_msgs': _=/usr/bin/env /usr/bin/cmake --install /home/imit-learn/workspace/build/voxblox_msgs
+Invoked command in '/home/imit-learn/workspace/build/voxblox_msgs' returned '0': _=/usr/bin/env /usr/bin/cmake --install /home/imit-learn/workspace/build/voxblox_msgs

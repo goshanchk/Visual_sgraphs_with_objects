@@ -1,0 +1,26 @@
+[ 25%] Built target gtest
+[ 50%] Built target gtest_main
+[ 75%] Built target kindr_msg_test
+[100%] Built target kindr_tf_test
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/include/minkindr_conversions/kindr_msg.h
+-- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/include/minkindr_conversions/kindr_tf.h
+-- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/include/minkindr_conversions/kindr_xml.h
+-- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/ament_index/resource_index/package_run_dependencies/minkindr_conversions
+-- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/ament_index/resource_index/parent_prefix_path/minkindr_conversions
+-- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/environment/ament_prefix_path.sh
+-- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/environment/ament_prefix_path.dsv
+-- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/environment/path.sh
+-- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/environment/path.dsv
+-- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/local_setup.bash
+-- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/local_setup.sh
+-- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/local_setup.zsh
+-- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/local_setup.dsv
+-- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/package.dsv
+-- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/ament_index/resource_index/packages/minkindr_conversions
+-- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/cmake/minkindr_conversionsConfig.cmake
+-- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/cmake/minkindr_conversionsConfig-version.cmake
+-- Symlinking: /home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/package.xml

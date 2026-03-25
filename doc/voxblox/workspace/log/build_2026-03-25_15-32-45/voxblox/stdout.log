@@ -1,0 +1,93 @@
+[  9%] Built target voxblox_proto
+[ 13%] Built target gtest
+[ 16%] Built target gtest_main
+[ 58%] Built target voxblox
+[ 62%] Built target test_tsdf_interpolator
+[ 66%] Built target test_layer
+[ 69%] Built target test_protobuf
+[ 73%] Built target tsdf_to_esdf
+[ 77%] Built target test_merge_integration
+[ 81%] Built target test_layer_utils
+[ 84%] Built target test_sdf_integrators
+[ 88%] Built target test_bucket_queue
+[ 92%] Built target test_approx_hash_array
+[ 96%] Built target test_tsdf_map
+[100%] Built target test_clear_spheres
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/alignment/icp.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/core/block.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/core/block_hash.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/core/block_inl.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/core/color.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/core/common.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/core/esdf_map.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/core/layer.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/core/layer_inl.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/core/occupancy_map.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/core/tsdf_map.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/core/voxel.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/integrator/esdf_integrator.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/integrator/esdf_occ_integrator.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/integrator/integrator_utils.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/integrator/intensity_integrator.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/integrator/merge_integration.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/integrator/occupancy_integrator.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/integrator/tsdf_integrator.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/interpolator/interpolator.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/interpolator/interpolator_inl.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/io/layer_io.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/io/layer_io_inl.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/io/mesh_ply.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/io/ply_writer.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/io/sdf_ply.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/mesh/README.md
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/mesh/marching_cubes.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/mesh/mesh.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/mesh/mesh_integrator.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/mesh/mesh_layer.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/mesh/mesh_utils.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/simulation/objects.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/simulation/simulation_world.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/simulation/simulation_world_inl.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/test/layer_test_utils.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/utils/approx_hash_array.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/utils/bucket_queue.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/utils/camera_model.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/utils/color_maps.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/utils/distance_utils.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/utils/evaluation_utils.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/utils/layer_utils.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/utils/meshing_utils.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/utils/neighbor_tools.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/utils/planning_utils.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/utils/planning_utils_inl.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/utils/protobuf_utils.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/utils/timing.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/include/voxblox/utils/voxel_utils.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/environment/library_path.sh
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/environment/library_path.dsv
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/lib/libvoxblox_proto.a
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/lib/libvoxblox.a
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/share/ament_index/resource_index/package_run_dependencies/voxblox
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/share/ament_index/resource_index/parent_prefix_path/voxblox
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/environment/ament_prefix_path.sh
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/environment/ament_prefix_path.dsv
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/environment/path.sh
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/environment/path.dsv
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/local_setup.bash
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/local_setup.sh
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/local_setup.zsh
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/local_setup.dsv
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/package.dsv
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/share/ament_index/resource_index/packages/voxblox
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/cmake/voxbloxConfig.cmake
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/cmake/voxbloxConfig-version.cmake
+-- Symlinking: /home/imit-learn/workspace/install/voxblox/share/voxblox/package.xml
+-- Up-to-date: /home/imit-learn/workspace/install/voxblox/include/
+-- Up-to-date: /home/imit-learn/workspace/install/voxblox/include//voxblox
+-- Installing: /home/imit-learn/workspace/install/voxblox/include//voxblox/Block.pb.h
+-- Installing: /home/imit-learn/workspace/install/voxblox/include//voxblox/Layer.pb.h

@@ -1,0 +1,8 @@
+source;share/voxblox_skeleton/hook/cmake_prefix_path.ps1
+source;share/voxblox_skeleton/hook/cmake_prefix_path.dsv
+source;share/voxblox_skeleton/hook/cmake_prefix_path.sh
+source;share/voxblox_skeleton/local_setup.bash
+source;share/voxblox_skeleton/local_setup.dsv
+source;share/voxblox_skeleton/local_setup.ps1
+source;share/voxblox_skeleton/local_setup.sh
+source;share/voxblox_skeleton/local_setup.zsh

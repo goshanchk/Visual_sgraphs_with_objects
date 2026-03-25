@@ -1,0 +1,34 @@
+[0.030s] Invoking command in '/home/imit-learn/workspace/build/minkindr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/imit-learn/workspace/build/minkindr -- -j32 -l32
+[0.056s] Invoked command in '/home/imit-learn/workspace/build/minkindr' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/imit-learn/workspace/build/minkindr -- -j32 -l32
+[0.064s] Invoking command in '/home/imit-learn/workspace/build/minkindr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --install /home/imit-learn/workspace/build/minkindr
+[0.068s] -- Install configuration: "Release"
+[0.068s] -- Execute custom install script
+[0.069s] -- Symlinking: /home/imit-learn/workspace/install/minkindr/include/kindr/minimal/angle-axis.h
+[0.073s] -- Symlinking: /home/imit-learn/workspace/install/minkindr/include/kindr/minimal/common.h
+[0.078s] -- Symlinking: /home/imit-learn/workspace/install/minkindr/include/kindr/minimal/implementation/angle-axis-inl.h
+[0.083s] -- Symlinking: /home/imit-learn/workspace/install/minkindr/include/kindr/minimal/implementation/quat-sim-transform-inl.h
+[0.089s] -- Symlinking: /home/imit-learn/workspace/install/minkindr/include/kindr/minimal/implementation/quat-transformation-inl.h
+[0.095s] -- Symlinking: /home/imit-learn/workspace/install/minkindr/include/kindr/minimal/implementation/rotation-quaternion-inl.h
+[0.102s] -- Symlinking: /home/imit-learn/workspace/install/minkindr/include/kindr/minimal/implementation/transform-2d-inl.h
+[0.107s] -- Symlinking: /home/imit-learn/workspace/install/minkindr/include/kindr/minimal/position.h
+[0.111s] -- Symlinking: /home/imit-learn/workspace/install/minkindr/include/kindr/minimal/quat-sim-transform.h
+[0.116s] -- Symlinking: /home/imit-learn/workspace/install/minkindr/include/kindr/minimal/quat-transformation.h
+[0.123s] -- Symlinking: /home/imit-learn/workspace/install/minkindr/include/kindr/minimal/rotation-quaternion.h
+[0.131s] -- Symlinking: /home/imit-learn/workspace/install/minkindr/include/kindr/minimal/transform-2d.h
+[0.137s] -- Symlinking: /home/imit-learn/workspace/install/minkindr/share/ament_index/resource_index/package_run_dependencies/minkindr
+[0.141s] -- Symlinking: /home/imit-learn/workspace/install/minkindr/share/ament_index/resource_index/parent_prefix_path/minkindr
+[0.147s] -- Symlinking: /home/imit-learn/workspace/install/minkindr/share/minkindr/environment/ament_prefix_path.sh
+[0.153s] -- Symlinking: /home/imit-learn/workspace/install/minkindr/share/minkindr/environment/ament_prefix_path.dsv
+[0.159s] -- Symlinking: /home/imit-learn/workspace/install/minkindr/share/minkindr/environment/path.sh
+[0.163s] -- Symlinking: /home/imit-learn/workspace/install/minkindr/share/minkindr/environment/path.dsv
+[0.169s] -- Symlinking: /home/imit-learn/workspace/install/minkindr/share/minkindr/local_setup.bash
+[0.175s] -- Symlinking: /home/imit-learn/workspace/install/minkindr/share/minkindr/local_setup.sh
+[0.181s] -- Symlinking: /home/imit-learn/workspace/install/minkindr/share/minkindr/local_setup.zsh
+[0.185s] -- Symlinking: /home/imit-learn/workspace/install/minkindr/share/minkindr/local_setup.dsv
+[0.190s] -- Symlinking: /home/imit-learn/workspace/install/minkindr/share/minkindr/package.dsv
+[0.196s] -- Symlinking: /home/imit-learn/workspace/install/minkindr/share/ament_index/resource_index/packages/minkindr
+[0.202s] -- Symlinking: /home/imit-learn/workspace/install/minkindr/share/minkindr/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.207s] -- Symlinking: /home/imit-learn/workspace/install/minkindr/share/minkindr/cmake/minkindrConfig.cmake
+[0.211s] -- Symlinking: /home/imit-learn/workspace/install/minkindr/share/minkindr/cmake/minkindrConfig-version.cmake
+[0.217s] -- Symlinking: /home/imit-learn/workspace/install/minkindr/share/minkindr/package.xml
+[0.222s] Invoked command in '/home/imit-learn/workspace/build/minkindr' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --install /home/imit-learn/workspace/build/minkindr

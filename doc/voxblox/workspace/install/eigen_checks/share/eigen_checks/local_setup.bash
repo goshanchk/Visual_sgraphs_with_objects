@@ -1,0 +1,1 @@
+/home/imit-learn/workspace/build/eigen_checks/ament_cmake_environment_hooks/local_setup.bash

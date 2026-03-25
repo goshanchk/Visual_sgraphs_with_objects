@@ -1,0 +1,1 @@
+/home/imit-learn/workspace/src/voxblox_ros2_minimal/voxblox_skeleton/include/voxblox_skeleton/skeleton.h

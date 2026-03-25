@@ -1,0 +1,36 @@
+[100%] Built target xmlrpcpp
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/imit-learn/workspace/install/xmlrpcpp/lib/libxmlrpcpp.a
+-- Symlinking: /home/imit-learn/workspace/install/xmlrpcpp/include//xmlrpcpp/XmlRpc.h
+-- Symlinking: /home/imit-learn/workspace/install/xmlrpcpp/include//xmlrpcpp/XmlRpcClient.h
+-- Symlinking: /home/imit-learn/workspace/install/xmlrpcpp/include//xmlrpcpp/XmlRpcDecl.h
+-- Symlinking: /home/imit-learn/workspace/install/xmlrpcpp/include//xmlrpcpp/XmlRpcDispatch.h
+-- Symlinking: /home/imit-learn/workspace/install/xmlrpcpp/include//xmlrpcpp/XmlRpcException.h
+-- Symlinking: /home/imit-learn/workspace/install/xmlrpcpp/include//xmlrpcpp/XmlRpcServer.h
+-- Symlinking: /home/imit-learn/workspace/install/xmlrpcpp/include//xmlrpcpp/XmlRpcServerConnection.h
+-- Symlinking: /home/imit-learn/workspace/install/xmlrpcpp/include//xmlrpcpp/XmlRpcServerMethod.h
+-- Symlinking: /home/imit-learn/workspace/install/xmlrpcpp/include//xmlrpcpp/XmlRpcSocket.h
+-- Symlinking: /home/imit-learn/workspace/install/xmlrpcpp/include//xmlrpcpp/XmlRpcSource.h
+-- Symlinking: /home/imit-learn/workspace/install/xmlrpcpp/include//xmlrpcpp/XmlRpcUtil.h
+-- Symlinking: /home/imit-learn/workspace/install/xmlrpcpp/include//xmlrpcpp/XmlRpcValue.h
+-- Symlinking: /home/imit-learn/workspace/install/xmlrpcpp/include//xmlrpcpp/base64.h
+-- Symlinking: /home/imit-learn/workspace/install/xmlrpcpp/share/xmlrpcpp/environment/library_path.sh
+-- Symlinking: /home/imit-learn/workspace/install/xmlrpcpp/share/xmlrpcpp/environment/library_path.dsv
+-- Symlinking: /home/imit-learn/workspace/install/xmlrpcpp/share/ament_index/resource_index/package_run_dependencies/xmlrpcpp
+-- Symlinking: /home/imit-learn/workspace/install/xmlrpcpp/share/ament_index/resource_index/parent_prefix_path/xmlrpcpp
+-- Symlinking: /home/imit-learn/workspace/install/xmlrpcpp/share/xmlrpcpp/environment/ament_prefix_path.sh
+-- Symlinking: /home/imit-learn/workspace/install/xmlrpcpp/share/xmlrpcpp/environment/ament_prefix_path.dsv
+-- Symlinking: /home/imit-learn/workspace/install/xmlrpcpp/share/xmlrpcpp/environment/path.sh
+-- Symlinking: /home/imit-learn/workspace/install/xmlrpcpp/share/xmlrpcpp/environment/path.dsv
+-- Symlinking: /home/imit-learn/workspace/install/xmlrpcpp/share/xmlrpcpp/local_setup.bash
+-- Symlinking: /home/imit-learn/workspace/install/xmlrpcpp/share/xmlrpcpp/local_setup.sh
+-- Symlinking: /home/imit-learn/workspace/install/xmlrpcpp/share/xmlrpcpp/local_setup.zsh
+-- Symlinking: /home/imit-learn/workspace/install/xmlrpcpp/share/xmlrpcpp/local_setup.dsv
+-- Symlinking: /home/imit-learn/workspace/install/xmlrpcpp/share/xmlrpcpp/package.dsv
+-- Symlinking: /home/imit-learn/workspace/install/xmlrpcpp/share/ament_index/resource_index/packages/xmlrpcpp
+-- Symlinking: /home/imit-learn/workspace/install/xmlrpcpp/share/xmlrpcpp/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/imit-learn/workspace/install/xmlrpcpp/share/xmlrpcpp/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/imit-learn/workspace/install/xmlrpcpp/share/xmlrpcpp/cmake/xmlrpcppConfig.cmake
+-- Symlinking: /home/imit-learn/workspace/install/xmlrpcpp/share/xmlrpcpp/cmake/xmlrpcppConfig-version.cmake
+-- Symlinking: /home/imit-learn/workspace/install/xmlrpcpp/share/xmlrpcpp/package.xml

@@ -1,0 +1,51 @@
+[ 17%] Built target voxblox_skeleton_proto
+[ 64%] Built target voxblox_skeleton
+[ 76%] Built target skeletonizer
+[ 88%] Built target skeletonizer_realtime
+[100%] Built target skeleton_eval
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/include/voxblox_skeleton/io/skeleton_io.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/include/voxblox_skeleton/nanoflann/nanoflann.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/include/voxblox_skeleton/nanoflann_interface.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/include/voxblox_skeleton/ros/skeleton_vis.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/include/voxblox_skeleton/skeleton.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/include/voxblox_skeleton/skeleton_generator.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/include/voxblox_skeleton/skeleton_planner.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/include/voxblox_skeleton/skeleton_voxel.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/include/voxblox_skeleton/sparse_graph_planner.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/include/voxblox_skeleton/voxel_template_matcher.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/environment/library_path.sh
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/environment/library_path.dsv
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/lib/libvoxblox_skeleton_proto.a
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/lib/libvoxblox_skeleton.a
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/lib/voxblox_skeleton/skeletonizer_realtime
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/lib/voxblox_skeleton/skeletonizer
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/lib/voxblox_skeleton/skeleton_eval
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/launch/skeleton_eval.launch
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/launch/skeleton_eval.launch.py
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/launch/skeletonize_map.launch
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/launch/skeletonize_map.launch.py
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/launch/skeletonize_map_multirobot_realtime.launch
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/launch/skeletonize_map_multirobot_realtime.launch.py
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/launch/skeletonize_map_realtime.launch
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/launch/skeletonize_map_realtime.launch.py
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/launch/skeletonize_map_vsgraphs.launch.py
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/share/ament_index/resource_index/package_run_dependencies/voxblox_skeleton
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/share/ament_index/resource_index/parent_prefix_path/voxblox_skeleton
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/environment/ament_prefix_path.sh
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/environment/ament_prefix_path.dsv
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/environment/path.sh
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/environment/path.dsv
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/local_setup.bash
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/local_setup.sh
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/local_setup.zsh
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/local_setup.dsv
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/package.dsv
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/share/ament_index/resource_index/packages/voxblox_skeleton
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/cmake/voxblox_skeletonConfig.cmake
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/cmake/voxblox_skeletonConfig-version.cmake
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/package.xml

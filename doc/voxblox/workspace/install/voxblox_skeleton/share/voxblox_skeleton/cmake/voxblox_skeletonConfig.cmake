@@ -1,0 +1,1 @@
+/home/imit-learn/workspace/build/voxblox_skeleton/ament_cmake_core/voxblox_skeletonConfig.cmake

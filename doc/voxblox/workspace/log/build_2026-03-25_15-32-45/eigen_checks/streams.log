@@ -1,0 +1,44 @@
+[0.030s] Invoking command in '/home/imit-learn/workspace/build/eigen_checks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/imit-learn/workspace/build/eigen_checks -- -j32 -l32
+[0.109s] [  7%] Built target eigen_checks
+[0.119s] [ 15%] Built target gtest
+[0.120s] [ 23%] Built target gtest_main
+[0.207s] [ 30%] Built target test_gtest_equal
+[0.214s] [ 38%] Built target test_glog-zero-sized-types
+[0.214s] [ 46%] Built target test_gtest-zero-sized-types
+[0.215s] [ 53%] Built target test_gtest_zero
+[0.217s] [ 61%] Built target test_glog_near
+[0.220s] [ 69%] Built target test_gtest_near
+[0.233s] [ 76%] Built target test_glog_equal
+[0.237s] [ 84%] Built target test_glog_zero
+[0.241s] [ 92%] Built target test_glog_equal_double
+[0.243s] [100%] Built target test_gtest_equal_double
+[0.248s] Invoked command in '/home/imit-learn/workspace/build/eigen_checks' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/imit-learn/workspace/build/eigen_checks -- -j32 -l32
+[0.249s] Invoking command in '/home/imit-learn/workspace/build/eigen_checks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --install /home/imit-learn/workspace/build/eigen_checks
+[0.255s] -- Install configuration: "Release"
+[0.256s] -- Execute custom install script
+[0.256s] -- Symlinking: /home/imit-learn/workspace/install/eigen_checks/include/eigen-checks/entrypoint.h
+[0.261s] -- Symlinking: /home/imit-learn/workspace/install/eigen_checks/include/eigen-checks/glog.h
+[0.267s] -- Symlinking: /home/imit-learn/workspace/install/eigen_checks/include/eigen-checks/gtest.h
+[0.273s] -- Symlinking: /home/imit-learn/workspace/install/eigen_checks/include/eigen-checks/internal/gtest-equal.h
+[0.280s] -- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/environment/library_path.sh
+[0.286s] -- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/environment/library_path.dsv
+[0.291s] -- Symlinking: /home/imit-learn/workspace/install/eigen_checks/lib/libeigen_checks.a
+[0.297s] -- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/ament_index/resource_index/package_run_dependencies/eigen_checks
+[0.301s] -- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/ament_index/resource_index/parent_prefix_path/eigen_checks
+[0.306s] -- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/environment/ament_prefix_path.sh
+[0.310s] -- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/environment/ament_prefix_path.dsv
+[0.316s] -- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/environment/path.sh
+[0.322s] -- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/environment/path.dsv
+[0.328s] -- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/local_setup.bash
+[0.334s] -- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/local_setup.sh
+[0.341s] -- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/local_setup.zsh
+[0.347s] -- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/local_setup.dsv
+[0.353s] -- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/package.dsv
+[0.358s] -- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/ament_index/resource_index/packages/eigen_checks
+[0.362s] -- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.368s] -- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.375s] -- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/cmake/ament_cmake_export_libraries-extras.cmake
+[0.380s] -- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/cmake/eigen_checksConfig.cmake
+[0.386s] -- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/cmake/eigen_checksConfig-version.cmake
+[0.392s] -- Symlinking: /home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/package.xml
+[0.400s] Invoked command in '/home/imit-learn/workspace/build/eigen_checks' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --install /home/imit-learn/workspace/build/eigen_checks

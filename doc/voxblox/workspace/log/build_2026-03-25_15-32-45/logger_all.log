@@ -1,0 +1,721 @@
+[0.048s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release']
+[0.048s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x75b8728cf3b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75b872a23d10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75b872a23d10>>, mixin_verb=('build',))
+[0.066s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.067s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.067s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.067s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.067s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.067s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.067s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/imit-learn/workspace'
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal) by extensions ['ignore', 'ignore_ament_install']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal) by extension 'ignore'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal) by extension 'ignore_ament_install'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal) by extensions ['colcon_pkg']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal) by extension 'colcon_pkg'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal) by extensions ['colcon_meta']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal) by extension 'colcon_meta'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal) by extensions ['ros']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal) by extension 'ros'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal) by extensions ['cmake', 'python']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal) by extension 'cmake'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal) by extension 'python'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal) by extensions ['python_setup_py']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal) by extension 'python_setup_py'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/docs) by extension 'ignore'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/docs) by extension 'ignore_ament_install'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/docs) by extensions ['colcon_pkg']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/docs) by extension 'colcon_pkg'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/docs) by extensions ['colcon_meta']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/docs) by extension 'colcon_meta'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/docs) by extensions ['ros']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/docs) by extension 'ros'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/docs) by extensions ['cmake', 'python']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/docs) by extension 'cmake'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/docs) by extension 'python'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/docs) by extensions ['python_setup_py']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/docs) by extension 'python_setup_py'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/docs/pages) by extensions ['ignore', 'ignore_ament_install']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/docs/pages) by extension 'ignore'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/docs/pages) by extension 'ignore_ament_install'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/docs/pages) by extensions ['colcon_pkg']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/docs/pages) by extension 'colcon_pkg'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/docs/pages) by extensions ['colcon_meta']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/docs/pages) by extension 'colcon_meta'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/docs/pages) by extensions ['ros']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/docs/pages) by extension 'ros'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/docs/pages) by extensions ['cmake', 'python']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/docs/pages) by extension 'cmake'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/docs/pages) by extension 'python'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/docs/pages) by extensions ['python_setup_py']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/docs/pages) by extension 'python_setup_py'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/eigen_checks) by extensions ['ignore', 'ignore_ament_install']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/eigen_checks) by extension 'ignore'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/eigen_checks) by extension 'ignore_ament_install'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/eigen_checks) by extensions ['colcon_pkg']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/eigen_checks) by extension 'colcon_pkg'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/eigen_checks) by extensions ['colcon_meta']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/eigen_checks) by extension 'colcon_meta'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/eigen_checks) by extensions ['ros']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/eigen_checks) by extension 'ros'
+[0.082s] DEBUG:colcon.colcon_core.package_identification:Package 'src/voxblox_ros2_minimal/eigen_checks' with type 'ros.ament_cmake' and name 'eigen_checks'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/minikindr_ament) by extensions ['ignore', 'ignore_ament_install']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/minikindr_ament) by extension 'ignore'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/minikindr_ament) by extension 'ignore_ament_install'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/minikindr_ament) by extensions ['colcon_pkg']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/minikindr_ament) by extension 'colcon_pkg'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/minikindr_ament) by extensions ['colcon_meta']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/minikindr_ament) by extension 'colcon_meta'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/minikindr_ament) by extensions ['ros']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/minikindr_ament) by extension 'ros'
+[0.083s] DEBUG:colcon.colcon_core.package_identification:Package 'src/voxblox_ros2_minimal/minikindr_ament' with type 'ros.ament_cmake' and name 'minkindr'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/minkindr_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/minkindr_ros) by extension 'ignore'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/minkindr_ros) by extension 'ignore_ament_install'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/minkindr_ros) by extensions ['colcon_pkg']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/minkindr_ros) by extension 'colcon_pkg'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/minkindr_ros) by extensions ['colcon_meta']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/minkindr_ros) by extension 'colcon_meta'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/minkindr_ros) by extensions ['ros']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/minkindr_ros) by extension 'ros'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/minkindr_ros) by extensions ['cmake', 'python']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/minkindr_ros) by extension 'cmake'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/minkindr_ros) by extension 'python'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/minkindr_ros) by extensions ['python_setup_py']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/minkindr_ros) by extension 'python_setup_py'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/minkindr_ros/minkindr_conversions) by extensions ['ignore', 'ignore_ament_install']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/minkindr_ros/minkindr_conversions) by extension 'ignore'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/minkindr_ros/minkindr_conversions) by extension 'ignore_ament_install'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/minkindr_ros/minkindr_conversions) by extensions ['colcon_pkg']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/minkindr_ros/minkindr_conversions) by extension 'colcon_pkg'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/minkindr_ros/minkindr_conversions) by extensions ['colcon_meta']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/minkindr_ros/minkindr_conversions) by extension 'colcon_meta'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/minkindr_ros/minkindr_conversions) by extensions ['ros']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/minkindr_ros/minkindr_conversions) by extension 'ros'
+[0.084s] DEBUG:colcon.colcon_core.package_identification:Package 'src/voxblox_ros2_minimal/minkindr_ros/minkindr_conversions' with type 'ros.ament_cmake' and name 'minkindr_conversions'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox) by extensions ['ignore', 'ignore_ament_install']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox) by extension 'ignore'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox) by extension 'ignore_ament_install'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox) by extensions ['colcon_pkg']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox) by extension 'colcon_pkg'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox) by extensions ['colcon_meta']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox) by extension 'colcon_meta'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox) by extensions ['ros']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox) by extension 'ros'
+[0.084s] DEBUG:colcon.colcon_core.package_identification:Package 'src/voxblox_ros2_minimal/voxblox' with type 'ros.ament_cmake' and name 'voxblox'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_msgs) by extension 'ignore'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_msgs) by extension 'ignore_ament_install'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_msgs) by extensions ['colcon_pkg']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_msgs) by extension 'colcon_pkg'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_msgs) by extensions ['colcon_meta']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_msgs) by extension 'colcon_meta'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_msgs) by extensions ['ros']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_msgs) by extension 'ros'
+[0.084s] DEBUG:colcon.colcon_core.package_identification:Package 'src/voxblox_ros2_minimal/voxblox_msgs' with type 'ros.catkin' and name 'voxblox_msgs'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_ros) by extension 'ignore'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_ros) by extension 'ignore_ament_install'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_ros) by extensions ['colcon_pkg']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_ros) by extension 'colcon_pkg'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_ros) by extensions ['colcon_meta']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_ros) by extension 'colcon_meta'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_ros) by extensions ['ros']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_ros) by extension 'ros'
+[0.085s] DEBUG:colcon.colcon_core.package_identification:Package 'src/voxblox_ros2_minimal/voxblox_ros' with type 'ros.ament_cmake' and name 'voxblox_ros'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_rviz_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_rviz_plugin) by extension 'ignore'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_rviz_plugin) by extension 'ignore_ament_install'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_rviz_plugin) by extensions ['colcon_pkg']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_rviz_plugin) by extension 'colcon_pkg'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_rviz_plugin) by extensions ['colcon_meta']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_rviz_plugin) by extension 'colcon_meta'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_rviz_plugin) by extensions ['ros']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_rviz_plugin) by extension 'ros'
+[0.086s] DEBUG:colcon.colcon_core.package_identification:Package 'src/voxblox_ros2_minimal/voxblox_rviz_plugin' with type 'ros.ament_cmake' and name 'voxblox_rviz_plugin'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_skeleton) by extensions ['ignore', 'ignore_ament_install']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_skeleton) by extension 'ignore'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_skeleton) by extension 'ignore_ament_install'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_skeleton) by extensions ['colcon_pkg']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_skeleton) by extension 'colcon_pkg'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_skeleton) by extensions ['colcon_meta']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_skeleton) by extension 'colcon_meta'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_skeleton) by extensions ['ros']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/voxblox_skeleton) by extension 'ros'
+[0.086s] DEBUG:colcon.colcon_core.package_identification:Package 'src/voxblox_ros2_minimal/voxblox_skeleton' with type 'ros.ament_cmake' and name 'voxblox_skeleton'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/xmlrpcpp) by extensions ['ignore', 'ignore_ament_install']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/xmlrpcpp) by extension 'ignore'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/xmlrpcpp) by extension 'ignore_ament_install'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/xmlrpcpp) by extensions ['colcon_pkg']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/xmlrpcpp) by extension 'colcon_pkg'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/xmlrpcpp) by extensions ['colcon_meta']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/xmlrpcpp) by extension 'colcon_meta'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/xmlrpcpp) by extensions ['ros']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/voxblox_ros2_minimal/xmlrpcpp) by extension 'ros'
+[0.087s] DEBUG:colcon.colcon_core.package_identification:Package 'src/voxblox_ros2_minimal/xmlrpcpp' with type 'ros.ament_cmake' and name 'xmlrpcpp'
+[0.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.097s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 289 installed packages in /opt/ros/jazzy
+[0.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.114s] Level 5:colcon.colcon_core.verb:set package 'eigen_checks' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.114s] Level 5:colcon.colcon_core.verb:set package 'eigen_checks' build argument 'cmake_target' from command line to 'None'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'eigen_checks' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'eigen_checks' build argument 'cmake_clean_cache' from command line to 'False'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'eigen_checks' build argument 'cmake_clean_first' from command line to 'False'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'eigen_checks' build argument 'cmake_force_configure' from command line to 'False'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'eigen_checks' build argument 'ament_cmake_args' from command line to 'None'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'eigen_checks' build argument 'catkin_cmake_args' from command line to 'None'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'eigen_checks' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.115s] DEBUG:colcon.colcon_core.verb:Building package 'eigen_checks' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/imit-learn/workspace/build/eigen_checks', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/imit-learn/workspace/install/eigen_checks', 'merge_install': False, 'path': '/home/imit-learn/workspace/src/voxblox_ros2_minimal/eigen_checks', 'symlink_install': True, 'test_result_base': None}
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'minkindr' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'minkindr' build argument 'cmake_target' from command line to 'None'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'minkindr' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'minkindr' build argument 'cmake_clean_cache' from command line to 'False'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'minkindr' build argument 'cmake_clean_first' from command line to 'False'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'minkindr' build argument 'cmake_force_configure' from command line to 'False'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'minkindr' build argument 'ament_cmake_args' from command line to 'None'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'minkindr' build argument 'catkin_cmake_args' from command line to 'None'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'minkindr' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.115s] DEBUG:colcon.colcon_core.verb:Building package 'minkindr' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/imit-learn/workspace/build/minkindr', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/imit-learn/workspace/install/minkindr', 'merge_install': False, 'path': '/home/imit-learn/workspace/src/voxblox_ros2_minimal/minikindr_ament', 'symlink_install': True, 'test_result_base': None}
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'voxblox_msgs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'voxblox_msgs' build argument 'cmake_target' from command line to 'None'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'voxblox_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'voxblox_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'voxblox_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'voxblox_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'voxblox_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'voxblox_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'voxblox_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.115s] DEBUG:colcon.colcon_core.verb:Building package 'voxblox_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/imit-learn/workspace/build/voxblox_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/imit-learn/workspace/install/voxblox_msgs', 'merge_install': False, 'path': '/home/imit-learn/workspace/src/voxblox_ros2_minimal/voxblox_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'xmlrpcpp' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'xmlrpcpp' build argument 'cmake_target' from command line to 'None'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'xmlrpcpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'xmlrpcpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'xmlrpcpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'xmlrpcpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'xmlrpcpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'xmlrpcpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'xmlrpcpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.115s] DEBUG:colcon.colcon_core.verb:Building package 'xmlrpcpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/imit-learn/workspace/build/xmlrpcpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/imit-learn/workspace/install/xmlrpcpp', 'merge_install': False, 'path': '/home/imit-learn/workspace/src/voxblox_ros2_minimal/xmlrpcpp', 'symlink_install': True, 'test_result_base': None}
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'minkindr_conversions' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'minkindr_conversions' build argument 'cmake_target' from command line to 'None'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'minkindr_conversions' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'minkindr_conversions' build argument 'cmake_clean_cache' from command line to 'False'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'minkindr_conversions' build argument 'cmake_clean_first' from command line to 'False'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'minkindr_conversions' build argument 'cmake_force_configure' from command line to 'False'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'minkindr_conversions' build argument 'ament_cmake_args' from command line to 'None'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'minkindr_conversions' build argument 'catkin_cmake_args' from command line to 'None'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'minkindr_conversions' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.115s] DEBUG:colcon.colcon_core.verb:Building package 'minkindr_conversions' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/imit-learn/workspace/build/minkindr_conversions', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/imit-learn/workspace/install/minkindr_conversions', 'merge_install': False, 'path': '/home/imit-learn/workspace/src/voxblox_ros2_minimal/minkindr_ros/minkindr_conversions', 'symlink_install': True, 'test_result_base': None}
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'voxblox' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'voxblox' build argument 'cmake_target' from command line to 'None'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'voxblox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'voxblox' build argument 'cmake_clean_cache' from command line to 'False'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'voxblox' build argument 'cmake_clean_first' from command line to 'False'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'voxblox' build argument 'cmake_force_configure' from command line to 'False'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'voxblox' build argument 'ament_cmake_args' from command line to 'None'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'voxblox' build argument 'catkin_cmake_args' from command line to 'None'
+[0.115s] Level 5:colcon.colcon_core.verb:set package 'voxblox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.115s] DEBUG:colcon.colcon_core.verb:Building package 'voxblox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/imit-learn/workspace/build/voxblox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/imit-learn/workspace/install/voxblox', 'merge_install': False, 'path': '/home/imit-learn/workspace/src/voxblox_ros2_minimal/voxblox', 'symlink_install': True, 'test_result_base': None}
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'voxblox_rviz_plugin' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'voxblox_rviz_plugin' build argument 'cmake_target' from command line to 'None'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'voxblox_rviz_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'voxblox_rviz_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'voxblox_rviz_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'voxblox_rviz_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'voxblox_rviz_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'voxblox_rviz_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'voxblox_rviz_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.116s] DEBUG:colcon.colcon_core.verb:Building package 'voxblox_rviz_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/imit-learn/workspace/build/voxblox_rviz_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/imit-learn/workspace/install/voxblox_rviz_plugin', 'merge_install': False, 'path': '/home/imit-learn/workspace/src/voxblox_ros2_minimal/voxblox_rviz_plugin', 'symlink_install': True, 'test_result_base': None}
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'voxblox_ros' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'voxblox_ros' build argument 'cmake_target' from command line to 'None'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'voxblox_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'voxblox_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'voxblox_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'voxblox_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'voxblox_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'voxblox_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'voxblox_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.116s] DEBUG:colcon.colcon_core.verb:Building package 'voxblox_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/imit-learn/workspace/build/voxblox_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/imit-learn/workspace/install/voxblox_ros', 'merge_install': False, 'path': '/home/imit-learn/workspace/src/voxblox_ros2_minimal/voxblox_ros', 'symlink_install': True, 'test_result_base': None}
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'voxblox_skeleton' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'voxblox_skeleton' build argument 'cmake_target' from command line to 'None'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'voxblox_skeleton' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'voxblox_skeleton' build argument 'cmake_clean_cache' from command line to 'False'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'voxblox_skeleton' build argument 'cmake_clean_first' from command line to 'False'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'voxblox_skeleton' build argument 'cmake_force_configure' from command line to 'False'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'voxblox_skeleton' build argument 'ament_cmake_args' from command line to 'None'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'voxblox_skeleton' build argument 'catkin_cmake_args' from command line to 'None'
+[0.116s] Level 5:colcon.colcon_core.verb:set package 'voxblox_skeleton' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.116s] DEBUG:colcon.colcon_core.verb:Building package 'voxblox_skeleton' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/imit-learn/workspace/build/voxblox_skeleton', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/imit-learn/workspace/install/voxblox_skeleton', 'merge_install': False, 'path': '/home/imit-learn/workspace/src/voxblox_ros2_minimal/voxblox_skeleton', 'symlink_install': True, 'test_result_base': None}
+[0.116s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.117s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.117s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/imit-learn/workspace/src/voxblox_ros2_minimal/minikindr_ament' with build type 'ament_cmake'
+[0.117s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/imit-learn/workspace/src/voxblox_ros2_minimal/minikindr_ament'
+[0.118s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.118s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.118s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.119s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/imit-learn/workspace/src/voxblox_ros2_minimal/eigen_checks' with build type 'ament_cmake'
+[0.119s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/imit-learn/workspace/src/voxblox_ros2_minimal/eigen_checks'
+[0.119s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.119s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.120s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/imit-learn/workspace/src/voxblox_ros2_minimal/voxblox_msgs' with build type 'catkin'
+[0.120s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/imit-learn/workspace/src/voxblox_ros2_minimal/voxblox_msgs'
+[0.120s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.120s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.122s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/imit-learn/workspace/src/voxblox_ros2_minimal/xmlrpcpp' with build type 'ament_cmake'
+[0.122s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/imit-learn/workspace/src/voxblox_ros2_minimal/xmlrpcpp'
+[0.122s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.122s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imit-learn/workspace/build/minkindr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/imit-learn/workspace/build/minkindr -- -j32 -l32
+[0.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imit-learn/workspace/build/voxblox_msgs': _=/usr/bin/env /usr/bin/cmake --build /home/imit-learn/workspace/build/voxblox_msgs -- -j32 -l32
+[0.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imit-learn/workspace/build/eigen_checks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/imit-learn/workspace/build/eigen_checks -- -j32 -l32
+[0.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imit-learn/workspace/build/xmlrpcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/imit-learn/workspace/build/xmlrpcpp -- -j32 -l32
+[0.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imit-learn/workspace/build/minkindr' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/imit-learn/workspace/build/minkindr -- -j32 -l32
+[0.181s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imit-learn/workspace/build/minkindr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --install /home/imit-learn/workspace/build/minkindr
+[0.244s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imit-learn/workspace/build/xmlrpcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/imit-learn/workspace/build/xmlrpcpp -- -j32 -l32
+[0.244s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imit-learn/workspace/build/xmlrpcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --install /home/imit-learn/workspace/build/xmlrpcpp
+[0.338s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minkindr)
+[0.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imit-learn/workspace/build/minkindr' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --install /home/imit-learn/workspace/build/minkindr
+[0.340s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/minkindr' for CMake module files
+[0.340s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/minkindr' for CMake config files
+[0.340s] Level 1:colcon.colcon_core.shell:create_environment_hook('minkindr', 'cmake_prefix_path')
+[0.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/minkindr/share/minkindr/hook/cmake_prefix_path.ps1'
+[0.341s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imit-learn/workspace/install/minkindr/share/minkindr/hook/cmake_prefix_path.dsv'
+[0.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/minkindr/share/minkindr/hook/cmake_prefix_path.sh'
+[0.341s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/minkindr/bin'
+[0.341s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/minkindr/lib/pkgconfig/minkindr.pc'
+[0.341s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/minkindr/lib/python3.12/site-packages'
+[0.341s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/minkindr/bin'
+[0.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/minkindr/share/minkindr/package.ps1'
+[0.342s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imit-learn/workspace/install/minkindr/share/minkindr/package.dsv'
+[0.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/minkindr/share/minkindr/package.sh'
+[0.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/minkindr/share/minkindr/package.bash'
+[0.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/minkindr/share/minkindr/package.zsh'
+[0.343s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imit-learn/workspace/install/minkindr/share/colcon-core/packages/minkindr)
+[0.343s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minkindr)
+[0.343s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/minkindr' for CMake module files
+[0.344s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/minkindr' for CMake config files
+[0.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('minkindr', 'cmake_prefix_path')
+[0.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/minkindr/share/minkindr/hook/cmake_prefix_path.ps1'
+[0.344s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imit-learn/workspace/install/minkindr/share/minkindr/hook/cmake_prefix_path.dsv'
+[0.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/minkindr/share/minkindr/hook/cmake_prefix_path.sh'
+[0.344s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/minkindr/bin'
+[0.344s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/minkindr/lib/pkgconfig/minkindr.pc'
+[0.344s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/minkindr/lib/python3.12/site-packages'
+[0.345s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/minkindr/bin'
+[0.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/minkindr/share/minkindr/package.ps1'
+[0.345s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imit-learn/workspace/install/minkindr/share/minkindr/package.dsv'
+[0.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/minkindr/share/minkindr/package.sh'
+[0.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/minkindr/share/minkindr/package.bash'
+[0.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/minkindr/share/minkindr/package.zsh'
+[0.346s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imit-learn/workspace/install/minkindr/share/colcon-core/packages/minkindr)
+[0.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imit-learn/workspace/build/eigen_checks' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/imit-learn/workspace/build/eigen_checks -- -j32 -l32
+[0.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imit-learn/workspace/build/eigen_checks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --install /home/imit-learn/workspace/build/eigen_checks
+[0.422s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xmlrpcpp)
+[0.422s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/xmlrpcpp' for CMake module files
+[0.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imit-learn/workspace/build/xmlrpcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --install /home/imit-learn/workspace/build/xmlrpcpp
+[0.423s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/xmlrpcpp' for CMake config files
+[0.423s] Level 1:colcon.colcon_core.shell:create_environment_hook('xmlrpcpp', 'cmake_prefix_path')
+[0.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/xmlrpcpp/share/xmlrpcpp/hook/cmake_prefix_path.ps1'
+[0.423s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imit-learn/workspace/install/xmlrpcpp/share/xmlrpcpp/hook/cmake_prefix_path.dsv'
+[0.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/xmlrpcpp/share/xmlrpcpp/hook/cmake_prefix_path.sh'
+[0.423s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/xmlrpcpp/lib'
+[0.424s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/xmlrpcpp/bin'
+[0.424s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/xmlrpcpp/lib/pkgconfig/xmlrpcpp.pc'
+[0.424s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/xmlrpcpp/lib/python3.12/site-packages'
+[0.424s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/xmlrpcpp/bin'
+[0.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/xmlrpcpp/share/xmlrpcpp/package.ps1'
+[0.424s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imit-learn/workspace/install/xmlrpcpp/share/xmlrpcpp/package.dsv'
+[0.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/xmlrpcpp/share/xmlrpcpp/package.sh'
+[0.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/xmlrpcpp/share/xmlrpcpp/package.bash'
+[0.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/xmlrpcpp/share/xmlrpcpp/package.zsh'
+[0.425s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imit-learn/workspace/install/xmlrpcpp/share/colcon-core/packages/xmlrpcpp)
+[0.425s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xmlrpcpp)
+[0.425s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/xmlrpcpp' for CMake module files
+[0.426s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/xmlrpcpp' for CMake config files
+[0.426s] Level 1:colcon.colcon_core.shell:create_environment_hook('xmlrpcpp', 'cmake_prefix_path')
+[0.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/xmlrpcpp/share/xmlrpcpp/hook/cmake_prefix_path.ps1'
+[0.426s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imit-learn/workspace/install/xmlrpcpp/share/xmlrpcpp/hook/cmake_prefix_path.dsv'
+[0.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/xmlrpcpp/share/xmlrpcpp/hook/cmake_prefix_path.sh'
+[0.427s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/xmlrpcpp/lib'
+[0.427s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/xmlrpcpp/bin'
+[0.427s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/xmlrpcpp/lib/pkgconfig/xmlrpcpp.pc'
+[0.428s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/xmlrpcpp/lib/python3.12/site-packages'
+[0.428s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/xmlrpcpp/bin'
+[0.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/xmlrpcpp/share/xmlrpcpp/package.ps1'
+[0.428s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imit-learn/workspace/install/xmlrpcpp/share/xmlrpcpp/package.dsv'
+[0.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/xmlrpcpp/share/xmlrpcpp/package.sh'
+[0.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/xmlrpcpp/share/xmlrpcpp/package.bash'
+[0.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/xmlrpcpp/share/xmlrpcpp/package.zsh'
+[0.430s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imit-learn/workspace/install/xmlrpcpp/share/colcon-core/packages/xmlrpcpp)
+[0.430s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/imit-learn/workspace/src/voxblox_ros2_minimal/minkindr_ros/minkindr_conversions' with build type 'ament_cmake'
+[0.430s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/imit-learn/workspace/src/voxblox_ros2_minimal/minkindr_ros/minkindr_conversions'
+[0.430s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.430s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.462s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imit-learn/workspace/build/minkindr_conversions': AMENT_PREFIX_PATH=/home/imit-learn/workspace/install/xmlrpcpp:/home/imit-learn/workspace/install/minkindr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imit-learn/workspace/install/xmlrpcpp:/home/imit-learn/workspace/install/minkindr:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/imit-learn/workspace/install/xmlrpcpp/lib:${LD_LIBRARY_PATH} _=/usr/bin/env /usr/bin/cmake --build /home/imit-learn/workspace/build/minkindr_conversions -- -j32 -l32
+[0.518s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eigen_checks)
+[0.518s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/eigen_checks' for CMake module files
+[0.519s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imit-learn/workspace/build/eigen_checks' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --install /home/imit-learn/workspace/build/eigen_checks
+[0.519s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/eigen_checks' for CMake config files
+[0.519s] Level 1:colcon.colcon_core.shell:create_environment_hook('eigen_checks', 'cmake_prefix_path')
+[0.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/hook/cmake_prefix_path.ps1'
+[0.520s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/hook/cmake_prefix_path.dsv'
+[0.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/hook/cmake_prefix_path.sh'
+[0.521s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/eigen_checks/lib'
+[0.521s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/eigen_checks/bin'
+[0.521s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/eigen_checks/lib/pkgconfig/eigen_checks.pc'
+[0.521s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/eigen_checks/lib/python3.12/site-packages'
+[0.521s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/eigen_checks/bin'
+[0.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/package.ps1'
+[0.522s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/package.dsv'
+[0.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/package.sh'
+[0.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/package.bash'
+[0.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/package.zsh'
+[0.523s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imit-learn/workspace/install/eigen_checks/share/colcon-core/packages/eigen_checks)
+[0.523s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eigen_checks)
+[0.523s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/eigen_checks' for CMake module files
+[0.523s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/eigen_checks' for CMake config files
+[0.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('eigen_checks', 'cmake_prefix_path')
+[0.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/hook/cmake_prefix_path.ps1'
+[0.524s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/hook/cmake_prefix_path.dsv'
+[0.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/hook/cmake_prefix_path.sh'
+[0.525s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/eigen_checks/lib'
+[0.525s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/eigen_checks/bin'
+[0.525s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/eigen_checks/lib/pkgconfig/eigen_checks.pc'
+[0.525s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/eigen_checks/lib/python3.12/site-packages'
+[0.525s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/eigen_checks/bin'
+[0.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/package.ps1'
+[0.526s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/package.dsv'
+[0.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/package.sh'
+[0.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/package.bash'
+[0.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/eigen_checks/share/eigen_checks/package.zsh'
+[0.528s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imit-learn/workspace/install/eigen_checks/share/colcon-core/packages/eigen_checks)
+[0.528s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/imit-learn/workspace/src/voxblox_ros2_minimal/voxblox' with build type 'ament_cmake'
+[0.528s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/imit-learn/workspace/src/voxblox_ros2_minimal/voxblox'
+[0.528s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.528s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.566s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imit-learn/workspace/build/voxblox': AMENT_PREFIX_PATH=/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/imit-learn/workspace/install/eigen_checks/lib:${LD_LIBRARY_PATH} _=/usr/bin/env /usr/bin/cmake --build /home/imit-learn/workspace/build/voxblox -- -j32 -l32
+[0.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imit-learn/workspace/build/minkindr_conversions' returned '0': AMENT_PREFIX_PATH=/home/imit-learn/workspace/install/xmlrpcpp:/home/imit-learn/workspace/install/minkindr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imit-learn/workspace/install/xmlrpcpp:/home/imit-learn/workspace/install/minkindr:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/imit-learn/workspace/install/xmlrpcpp/lib:${LD_LIBRARY_PATH} _=/usr/bin/env /usr/bin/cmake --build /home/imit-learn/workspace/build/minkindr_conversions -- -j32 -l32
+[0.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imit-learn/workspace/build/minkindr_conversions': AMENT_PREFIX_PATH=/home/imit-learn/workspace/install/xmlrpcpp:/home/imit-learn/workspace/install/minkindr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imit-learn/workspace/install/xmlrpcpp:/home/imit-learn/workspace/install/minkindr:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/imit-learn/workspace/install/xmlrpcpp/lib:${LD_LIBRARY_PATH} _=/usr/bin/env /usr/bin/cmake --install /home/imit-learn/workspace/build/minkindr_conversions
+[0.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imit-learn/workspace/build/voxblox_msgs' returned '0': _=/usr/bin/env /usr/bin/cmake --build /home/imit-learn/workspace/build/voxblox_msgs -- -j32 -l32
+[0.687s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imit-learn/workspace/build/voxblox_msgs': _=/usr/bin/env /usr/bin/cmake --install /home/imit-learn/workspace/build/voxblox_msgs
+[0.733s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imit-learn/workspace/build/voxblox_msgs' returned '0': _=/usr/bin/env /usr/bin/cmake --install /home/imit-learn/workspace/build/voxblox_msgs
+[0.733s] Level 1:colcon.colcon_core.shell:create_environment_hook('voxblox_msgs', 'ros_package_path')
+[0.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/hook/ros_package_path.ps1'
+[0.733s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/hook/ros_package_path.dsv'
+[0.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/hook/ros_package_path.sh'
+[0.734s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages'
+[0.734s] Level 1:colcon.colcon_core.shell:create_environment_hook('voxblox_msgs', 'catkin_pythonpath')
+[0.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/hook/catkin_pythonpath.ps1'
+[0.734s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/hook/catkin_pythonpath.dsv'
+[0.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/hook/catkin_pythonpath.sh'
+[0.734s] Level 1:colcon.colcon_core.shell:create_environment_hook('voxblox_msgs', 'pkg_config_path')
+[0.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/hook/pkg_config_path.ps1'
+[0.734s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/hook/pkg_config_path.dsv'
+[0.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/hook/pkg_config_path.sh'
+[0.735s] Level 1:colcon.colcon_core.shell:create_environment_hook('voxblox_msgs', 'pkg_config_path_multiarch')
+[0.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/hook/pkg_config_path_multiarch.ps1'
+[0.736s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/hook/pkg_config_path_multiarch.dsv'
+[0.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/hook/pkg_config_path_multiarch.sh'
+[0.737s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(voxblox_msgs)
+[0.737s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_msgs' for CMake module files
+[0.738s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_msgs' for CMake config files
+[0.738s] Level 1:colcon.colcon_core.shell:create_environment_hook('voxblox_msgs', 'cmake_prefix_path')
+[0.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/hook/cmake_prefix_path.ps1'
+[0.738s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/hook/cmake_prefix_path.dsv'
+[0.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/hook/cmake_prefix_path.sh'
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_msgs/lib'
+[0.739s] Level 1:colcon.colcon_core.shell:create_environment_hook('voxblox_msgs', 'ld_library_path_lib')
+[0.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/hook/ld_library_path_lib.ps1'
+[0.739s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/hook/ld_library_path_lib.dsv'
+[0.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/hook/ld_library_path_lib.sh'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_msgs/bin'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_msgs/lib/pkgconfig/voxblox_msgs.pc'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages'
+[0.740s] Level 1:colcon.colcon_core.shell:create_environment_hook('voxblox_msgs', 'pythonpath')
+[0.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/hook/pythonpath.ps1'
+[0.741s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/hook/pythonpath.dsv'
+[0.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/hook/pythonpath.sh'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_msgs/bin'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/package.ps1'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/package.dsv'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/package.sh'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/package.bash'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/package.zsh'
+[0.743s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imit-learn/workspace/install/voxblox_msgs/share/colcon-core/packages/voxblox_msgs)
+[0.746s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minkindr_conversions)
+[0.747s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/minkindr_conversions' for CMake module files
+[0.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imit-learn/workspace/build/minkindr_conversions' returned '0': AMENT_PREFIX_PATH=/home/imit-learn/workspace/install/xmlrpcpp:/home/imit-learn/workspace/install/minkindr:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imit-learn/workspace/install/xmlrpcpp:/home/imit-learn/workspace/install/minkindr:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/imit-learn/workspace/install/xmlrpcpp/lib:${LD_LIBRARY_PATH} _=/usr/bin/env /usr/bin/cmake --install /home/imit-learn/workspace/build/minkindr_conversions
+[0.747s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/minkindr_conversions' for CMake config files
+[0.747s] Level 1:colcon.colcon_core.shell:create_environment_hook('minkindr_conversions', 'cmake_prefix_path')
+[0.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/hook/cmake_prefix_path.ps1'
+[0.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/hook/cmake_prefix_path.dsv'
+[0.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/hook/cmake_prefix_path.sh'
+[0.747s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/minkindr_conversions/bin'
+[0.748s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/minkindr_conversions/lib/pkgconfig/minkindr_conversions.pc'
+[0.748s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/minkindr_conversions/lib/python3.12/site-packages'
+[0.748s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/minkindr_conversions/bin'
+[0.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/package.ps1'
+[0.748s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/package.dsv'
+[0.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/package.sh'
+[0.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/package.bash'
+[0.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/package.zsh'
+[0.749s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imit-learn/workspace/install/minkindr_conversions/share/colcon-core/packages/minkindr_conversions)
+[0.749s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minkindr_conversions)
+[0.749s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/minkindr_conversions' for CMake module files
+[0.749s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/minkindr_conversions' for CMake config files
+[0.750s] Level 1:colcon.colcon_core.shell:create_environment_hook('minkindr_conversions', 'cmake_prefix_path')
+[0.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/hook/cmake_prefix_path.ps1'
+[0.750s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/hook/cmake_prefix_path.dsv'
+[0.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/hook/cmake_prefix_path.sh'
+[0.750s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/minkindr_conversions/bin'
+[0.750s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/minkindr_conversions/lib/pkgconfig/minkindr_conversions.pc'
+[0.750s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/minkindr_conversions/lib/python3.12/site-packages'
+[0.751s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/minkindr_conversions/bin'
+[0.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/package.ps1'
+[0.751s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/package.dsv'
+[0.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/package.sh'
+[0.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/package.bash'
+[0.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/minkindr_conversions/share/minkindr_conversions/package.zsh'
+[0.753s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imit-learn/workspace/install/minkindr_conversions/share/colcon-core/packages/minkindr_conversions)
+[0.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imit-learn/workspace/build/voxblox' returned '0': AMENT_PREFIX_PATH=/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/imit-learn/workspace/install/eigen_checks/lib:${LD_LIBRARY_PATH} _=/usr/bin/env /usr/bin/cmake --build /home/imit-learn/workspace/build/voxblox -- -j32 -l32
+[0.869s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imit-learn/workspace/build/voxblox': AMENT_PREFIX_PATH=/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/imit-learn/workspace/install/eigen_checks/lib:${LD_LIBRARY_PATH} _=/usr/bin/env /usr/bin/cmake --install /home/imit-learn/workspace/build/voxblox
+[1.209s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(voxblox)
+[1.209s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox' for CMake module files
+[1.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imit-learn/workspace/build/voxblox' returned '0': AMENT_PREFIX_PATH=/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/imit-learn/workspace/install/eigen_checks/lib:${LD_LIBRARY_PATH} _=/usr/bin/env /usr/bin/cmake --install /home/imit-learn/workspace/build/voxblox
+[1.209s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox' for CMake config files
+[1.209s] Level 1:colcon.colcon_core.shell:create_environment_hook('voxblox', 'cmake_prefix_path')
+[1.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox/share/voxblox/hook/cmake_prefix_path.ps1'
+[1.209s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imit-learn/workspace/install/voxblox/share/voxblox/hook/cmake_prefix_path.dsv'
+[1.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox/share/voxblox/hook/cmake_prefix_path.sh'
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox/lib'
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox/bin'
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox/lib/pkgconfig/voxblox.pc'
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox/lib/python3.12/site-packages'
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox/bin'
+[1.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox/share/voxblox/package.ps1'
+[1.210s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imit-learn/workspace/install/voxblox/share/voxblox/package.dsv'
+[1.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox/share/voxblox/package.sh'
+[1.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox/share/voxblox/package.bash'
+[1.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox/share/voxblox/package.zsh'
+[1.211s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imit-learn/workspace/install/voxblox/share/colcon-core/packages/voxblox)
+[1.211s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(voxblox)
+[1.211s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox' for CMake module files
+[1.211s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox' for CMake config files
+[1.211s] Level 1:colcon.colcon_core.shell:create_environment_hook('voxblox', 'cmake_prefix_path')
+[1.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox/share/voxblox/hook/cmake_prefix_path.ps1'
+[1.212s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imit-learn/workspace/install/voxblox/share/voxblox/hook/cmake_prefix_path.dsv'
+[1.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox/share/voxblox/hook/cmake_prefix_path.sh'
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox/lib'
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox/bin'
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox/lib/pkgconfig/voxblox.pc'
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox/lib/python3.12/site-packages'
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox/bin'
+[1.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox/share/voxblox/package.ps1'
+[1.213s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imit-learn/workspace/install/voxblox/share/voxblox/package.dsv'
+[1.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox/share/voxblox/package.sh'
+[1.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox/share/voxblox/package.bash'
+[1.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox/share/voxblox/package.zsh'
+[1.213s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imit-learn/workspace/install/voxblox/share/colcon-core/packages/voxblox)
+[1.213s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/imit-learn/workspace/src/voxblox_ros2_minimal/voxblox_rviz_plugin' with build type 'ament_cmake'
+[1.213s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/imit-learn/workspace/src/voxblox_ros2_minimal/voxblox_rviz_plugin'
+[1.213s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.213s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imit-learn/workspace/build/voxblox_rviz_plugin': AMENT_PREFIX_PATH=/home/imit-learn/workspace/install/voxblox:/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imit-learn/workspace/install/voxblox:/opt/ros/jazzy:/home/imit-learn/workspace/install/voxblox_msgs:/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/imit-learn/workspace/install/voxblox/lib:/home/imit-learn/workspace/install/voxblox_msgs/lib:/home/imit-learn/workspace/install/eigen_checks/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/imit-learn/workspace/install/voxblox_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/imit-learn/workspace/install/voxblox_msgs/lib/pkgconfig PYTHONPATH=/home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/imit-learn/workspace/install/voxblox_msgs/share _=/usr/bin/env /usr/bin/cmake --build /home/imit-learn/workspace/build/voxblox_rviz_plugin -- -j32 -l32
+[1.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imit-learn/workspace/build/voxblox_rviz_plugin' returned '0': AMENT_PREFIX_PATH=/home/imit-learn/workspace/install/voxblox:/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imit-learn/workspace/install/voxblox:/opt/ros/jazzy:/home/imit-learn/workspace/install/voxblox_msgs:/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/imit-learn/workspace/install/voxblox/lib:/home/imit-learn/workspace/install/voxblox_msgs/lib:/home/imit-learn/workspace/install/eigen_checks/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/imit-learn/workspace/install/voxblox_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/imit-learn/workspace/install/voxblox_msgs/lib/pkgconfig PYTHONPATH=/home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/imit-learn/workspace/install/voxblox_msgs/share _=/usr/bin/env /usr/bin/cmake --build /home/imit-learn/workspace/build/voxblox_rviz_plugin -- -j32 -l32
+[1.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imit-learn/workspace/build/voxblox_rviz_plugin': AMENT_PREFIX_PATH=/home/imit-learn/workspace/install/voxblox:/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imit-learn/workspace/install/voxblox:/opt/ros/jazzy:/home/imit-learn/workspace/install/voxblox_msgs:/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/imit-learn/workspace/install/voxblox/lib:/home/imit-learn/workspace/install/voxblox_msgs/lib:/home/imit-learn/workspace/install/eigen_checks/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/imit-learn/workspace/install/voxblox_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/imit-learn/workspace/install/voxblox_msgs/lib/pkgconfig PYTHONPATH=/home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/imit-learn/workspace/install/voxblox_msgs/share _=/usr/bin/env /usr/bin/cmake --install /home/imit-learn/workspace/build/voxblox_rviz_plugin
+[1.654s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(voxblox_rviz_plugin)
+[1.654s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_rviz_plugin' for CMake module files
+[1.654s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imit-learn/workspace/build/voxblox_rviz_plugin' returned '0': AMENT_PREFIX_PATH=/home/imit-learn/workspace/install/voxblox:/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imit-learn/workspace/install/voxblox:/opt/ros/jazzy:/home/imit-learn/workspace/install/voxblox_msgs:/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/imit-learn/workspace/install/voxblox/lib:/home/imit-learn/workspace/install/voxblox_msgs/lib:/home/imit-learn/workspace/install/eigen_checks/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/imit-learn/workspace/install/voxblox_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/imit-learn/workspace/install/voxblox_msgs/lib/pkgconfig PYTHONPATH=/home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/imit-learn/workspace/install/voxblox_msgs/share _=/usr/bin/env /usr/bin/cmake --install /home/imit-learn/workspace/build/voxblox_rviz_plugin
+[1.654s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_rviz_plugin' for CMake config files
+[1.655s] Level 1:colcon.colcon_core.shell:create_environment_hook('voxblox_rviz_plugin', 'cmake_prefix_path')
+[1.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/hook/cmake_prefix_path.ps1'
+[1.655s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/hook/cmake_prefix_path.dsv'
+[1.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/hook/cmake_prefix_path.sh'
+[1.655s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_rviz_plugin/lib'
+[1.655s] Level 1:colcon.colcon_core.shell:create_environment_hook('voxblox_rviz_plugin', 'ld_library_path_lib')
+[1.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/hook/ld_library_path_lib.ps1'
+[1.655s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/hook/ld_library_path_lib.dsv'
+[1.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/hook/ld_library_path_lib.sh'
+[1.656s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_rviz_plugin/bin'
+[1.656s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_rviz_plugin/lib/pkgconfig/voxblox_rviz_plugin.pc'
+[1.656s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_rviz_plugin/lib/python3.12/site-packages'
+[1.656s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_rviz_plugin/bin'
+[1.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/package.ps1'
+[1.656s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/package.dsv'
+[1.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/package.sh'
+[1.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/package.bash'
+[1.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/package.zsh'
+[1.657s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imit-learn/workspace/install/voxblox_rviz_plugin/share/colcon-core/packages/voxblox_rviz_plugin)
+[1.657s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(voxblox_rviz_plugin)
+[1.657s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_rviz_plugin' for CMake module files
+[1.657s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_rviz_plugin' for CMake config files
+[1.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('voxblox_rviz_plugin', 'cmake_prefix_path')
+[1.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/hook/cmake_prefix_path.ps1'
+[1.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/hook/cmake_prefix_path.dsv'
+[1.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/hook/cmake_prefix_path.sh'
+[1.658s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_rviz_plugin/lib'
+[1.658s] Level 1:colcon.colcon_core.shell:create_environment_hook('voxblox_rviz_plugin', 'ld_library_path_lib')
+[1.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/hook/ld_library_path_lib.ps1'
+[1.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/hook/ld_library_path_lib.dsv'
+[1.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/hook/ld_library_path_lib.sh'
+[1.658s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_rviz_plugin/bin'
+[1.658s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_rviz_plugin/lib/pkgconfig/voxblox_rviz_plugin.pc'
+[1.659s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_rviz_plugin/lib/python3.12/site-packages'
+[1.659s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_rviz_plugin/bin'
+[1.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/package.ps1'
+[1.659s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/package.dsv'
+[1.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/package.sh'
+[1.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/package.bash'
+[1.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox_rviz_plugin/share/voxblox_rviz_plugin/package.zsh'
+[1.660s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imit-learn/workspace/install/voxblox_rviz_plugin/share/colcon-core/packages/voxblox_rviz_plugin)
+[1.660s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/imit-learn/workspace/src/voxblox_ros2_minimal/voxblox_ros' with build type 'ament_cmake'
+[1.660s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/imit-learn/workspace/src/voxblox_ros2_minimal/voxblox_ros'
+[1.660s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.660s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imit-learn/workspace/build/voxblox_ros': AMENT_PREFIX_PATH=/home/imit-learn/workspace/install/voxblox_rviz_plugin:/home/imit-learn/workspace/install/voxblox:/home/imit-learn/workspace/install/minkindr_conversions:/home/imit-learn/workspace/install/xmlrpcpp:/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imit-learn/workspace/install/voxblox_rviz_plugin:/home/imit-learn/workspace/install/voxblox:/home/imit-learn/workspace/install/minkindr_conversions:/home/imit-learn/workspace/install/xmlrpcpp:/opt/ros/jazzy:/home/imit-learn/workspace/install/voxblox_msgs:/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/imit-learn/workspace/install/voxblox_rviz_plugin/lib:/home/imit-learn/workspace/install/voxblox/lib:/home/imit-learn/workspace/install/xmlrpcpp/lib:/home/imit-learn/workspace/install/voxblox_msgs/lib:/home/imit-learn/workspace/install/eigen_checks/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/imit-learn/workspace/install/voxblox_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/imit-learn/workspace/install/voxblox_msgs/lib/pkgconfig PYTHONPATH=/home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/imit-learn/workspace/install/voxblox_msgs/share _=/usr/bin/env /usr/bin/cmake --build /home/imit-learn/workspace/build/voxblox_ros -- -j32 -l32
+[1.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imit-learn/workspace/build/voxblox_ros' returned '0': AMENT_PREFIX_PATH=/home/imit-learn/workspace/install/voxblox_rviz_plugin:/home/imit-learn/workspace/install/voxblox:/home/imit-learn/workspace/install/minkindr_conversions:/home/imit-learn/workspace/install/xmlrpcpp:/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imit-learn/workspace/install/voxblox_rviz_plugin:/home/imit-learn/workspace/install/voxblox:/home/imit-learn/workspace/install/minkindr_conversions:/home/imit-learn/workspace/install/xmlrpcpp:/opt/ros/jazzy:/home/imit-learn/workspace/install/voxblox_msgs:/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/imit-learn/workspace/install/voxblox_rviz_plugin/lib:/home/imit-learn/workspace/install/voxblox/lib:/home/imit-learn/workspace/install/xmlrpcpp/lib:/home/imit-learn/workspace/install/voxblox_msgs/lib:/home/imit-learn/workspace/install/eigen_checks/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/imit-learn/workspace/install/voxblox_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/imit-learn/workspace/install/voxblox_msgs/lib/pkgconfig PYTHONPATH=/home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/imit-learn/workspace/install/voxblox_msgs/share _=/usr/bin/env /usr/bin/cmake --build /home/imit-learn/workspace/build/voxblox_ros -- -j32 -l32
+[1.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imit-learn/workspace/build/voxblox_ros': AMENT_PREFIX_PATH=/home/imit-learn/workspace/install/voxblox_rviz_plugin:/home/imit-learn/workspace/install/voxblox:/home/imit-learn/workspace/install/minkindr_conversions:/home/imit-learn/workspace/install/xmlrpcpp:/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imit-learn/workspace/install/voxblox_rviz_plugin:/home/imit-learn/workspace/install/voxblox:/home/imit-learn/workspace/install/minkindr_conversions:/home/imit-learn/workspace/install/xmlrpcpp:/opt/ros/jazzy:/home/imit-learn/workspace/install/voxblox_msgs:/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/imit-learn/workspace/install/voxblox_rviz_plugin/lib:/home/imit-learn/workspace/install/voxblox/lib:/home/imit-learn/workspace/install/xmlrpcpp/lib:/home/imit-learn/workspace/install/voxblox_msgs/lib:/home/imit-learn/workspace/install/eigen_checks/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/imit-learn/workspace/install/voxblox_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/imit-learn/workspace/install/voxblox_msgs/lib/pkgconfig PYTHONPATH=/home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/imit-learn/workspace/install/voxblox_msgs/share _=/usr/bin/env /usr/bin/cmake --install /home/imit-learn/workspace/build/voxblox_ros
+[2.116s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(voxblox_ros)
+[2.117s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_ros' for CMake module files
+[2.117s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imit-learn/workspace/build/voxblox_ros' returned '0': AMENT_PREFIX_PATH=/home/imit-learn/workspace/install/voxblox_rviz_plugin:/home/imit-learn/workspace/install/voxblox:/home/imit-learn/workspace/install/minkindr_conversions:/home/imit-learn/workspace/install/xmlrpcpp:/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imit-learn/workspace/install/voxblox_rviz_plugin:/home/imit-learn/workspace/install/voxblox:/home/imit-learn/workspace/install/minkindr_conversions:/home/imit-learn/workspace/install/xmlrpcpp:/opt/ros/jazzy:/home/imit-learn/workspace/install/voxblox_msgs:/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/imit-learn/workspace/install/voxblox_rviz_plugin/lib:/home/imit-learn/workspace/install/voxblox/lib:/home/imit-learn/workspace/install/xmlrpcpp/lib:/home/imit-learn/workspace/install/voxblox_msgs/lib:/home/imit-learn/workspace/install/eigen_checks/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/imit-learn/workspace/install/voxblox_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/imit-learn/workspace/install/voxblox_msgs/lib/pkgconfig PYTHONPATH=/home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/imit-learn/workspace/install/voxblox_msgs/share _=/usr/bin/env /usr/bin/cmake --install /home/imit-learn/workspace/build/voxblox_ros
+[2.117s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_ros' for CMake config files
+[2.117s] Level 1:colcon.colcon_core.shell:create_environment_hook('voxblox_ros', 'cmake_prefix_path')
+[2.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox_ros/share/voxblox_ros/hook/cmake_prefix_path.ps1'
+[2.117s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imit-learn/workspace/install/voxblox_ros/share/voxblox_ros/hook/cmake_prefix_path.dsv'
+[2.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox_ros/share/voxblox_ros/hook/cmake_prefix_path.sh'
+[2.118s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_ros/lib'
+[2.118s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_ros/bin'
+[2.118s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_ros/lib/pkgconfig/voxblox_ros.pc'
+[2.118s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_ros/lib/python3.12/site-packages'
+[2.118s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_ros/bin'
+[2.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox_ros/share/voxblox_ros/package.ps1'
+[2.118s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imit-learn/workspace/install/voxblox_ros/share/voxblox_ros/package.dsv'
+[2.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox_ros/share/voxblox_ros/package.sh'
+[2.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox_ros/share/voxblox_ros/package.bash'
+[2.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox_ros/share/voxblox_ros/package.zsh'
+[2.119s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imit-learn/workspace/install/voxblox_ros/share/colcon-core/packages/voxblox_ros)
+[2.119s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(voxblox_ros)
+[2.119s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_ros' for CMake module files
+[2.119s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_ros' for CMake config files
+[2.119s] Level 1:colcon.colcon_core.shell:create_environment_hook('voxblox_ros', 'cmake_prefix_path')
+[2.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox_ros/share/voxblox_ros/hook/cmake_prefix_path.ps1'
+[2.120s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imit-learn/workspace/install/voxblox_ros/share/voxblox_ros/hook/cmake_prefix_path.dsv'
+[2.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox_ros/share/voxblox_ros/hook/cmake_prefix_path.sh'
+[2.120s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_ros/lib'
+[2.120s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_ros/bin'
+[2.120s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_ros/lib/pkgconfig/voxblox_ros.pc'
+[2.120s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_ros/lib/python3.12/site-packages'
+[2.120s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_ros/bin'
+[2.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox_ros/share/voxblox_ros/package.ps1'
+[2.121s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imit-learn/workspace/install/voxblox_ros/share/voxblox_ros/package.dsv'
+[2.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox_ros/share/voxblox_ros/package.sh'
+[2.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox_ros/share/voxblox_ros/package.bash'
+[2.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox_ros/share/voxblox_ros/package.zsh'
+[2.121s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imit-learn/workspace/install/voxblox_ros/share/colcon-core/packages/voxblox_ros)
+[2.121s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/imit-learn/workspace/src/voxblox_ros2_minimal/voxblox_skeleton' with build type 'ament_cmake'
+[2.121s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/imit-learn/workspace/src/voxblox_ros2_minimal/voxblox_skeleton'
+[2.121s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.121s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imit-learn/workspace/build/voxblox_skeleton': AMENT_PREFIX_PATH=/home/imit-learn/workspace/install/voxblox_ros:/home/imit-learn/workspace/install/voxblox_rviz_plugin:/home/imit-learn/workspace/install/voxblox:/home/imit-learn/workspace/install/minkindr_conversions:/home/imit-learn/workspace/install/xmlrpcpp:/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imit-learn/workspace/install/voxblox_ros:/home/imit-learn/workspace/install/voxblox_rviz_plugin:/home/imit-learn/workspace/install/voxblox:/home/imit-learn/workspace/install/minkindr_conversions:/home/imit-learn/workspace/install/xmlrpcpp:/opt/ros/jazzy:/home/imit-learn/workspace/install/voxblox_msgs:/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/imit-learn/workspace/install/voxblox_ros/lib:/home/imit-learn/workspace/install/voxblox_rviz_plugin/lib:/home/imit-learn/workspace/install/voxblox/lib:/home/imit-learn/workspace/install/xmlrpcpp/lib:/home/imit-learn/workspace/install/voxblox_msgs/lib:/home/imit-learn/workspace/install/eigen_checks/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/imit-learn/workspace/install/voxblox_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/imit-learn/workspace/install/voxblox_msgs/lib/pkgconfig PYTHONPATH=/home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/imit-learn/workspace/install/voxblox_msgs/share _=/usr/bin/env /usr/bin/cmake --build /home/imit-learn/workspace/build/voxblox_skeleton -- -j32 -l32
+[2.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imit-learn/workspace/build/voxblox_skeleton' returned '0': AMENT_PREFIX_PATH=/home/imit-learn/workspace/install/voxblox_ros:/home/imit-learn/workspace/install/voxblox_rviz_plugin:/home/imit-learn/workspace/install/voxblox:/home/imit-learn/workspace/install/minkindr_conversions:/home/imit-learn/workspace/install/xmlrpcpp:/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imit-learn/workspace/install/voxblox_ros:/home/imit-learn/workspace/install/voxblox_rviz_plugin:/home/imit-learn/workspace/install/voxblox:/home/imit-learn/workspace/install/minkindr_conversions:/home/imit-learn/workspace/install/xmlrpcpp:/opt/ros/jazzy:/home/imit-learn/workspace/install/voxblox_msgs:/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/imit-learn/workspace/install/voxblox_ros/lib:/home/imit-learn/workspace/install/voxblox_rviz_plugin/lib:/home/imit-learn/workspace/install/voxblox/lib:/home/imit-learn/workspace/install/xmlrpcpp/lib:/home/imit-learn/workspace/install/voxblox_msgs/lib:/home/imit-learn/workspace/install/eigen_checks/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/imit-learn/workspace/install/voxblox_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/imit-learn/workspace/install/voxblox_msgs/lib/pkgconfig PYTHONPATH=/home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/imit-learn/workspace/install/voxblox_msgs/share _=/usr/bin/env /usr/bin/cmake --build /home/imit-learn/workspace/build/voxblox_skeleton -- -j32 -l32
+[2.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imit-learn/workspace/build/voxblox_skeleton': AMENT_PREFIX_PATH=/home/imit-learn/workspace/install/voxblox_ros:/home/imit-learn/workspace/install/voxblox_rviz_plugin:/home/imit-learn/workspace/install/voxblox:/home/imit-learn/workspace/install/minkindr_conversions:/home/imit-learn/workspace/install/xmlrpcpp:/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imit-learn/workspace/install/voxblox_ros:/home/imit-learn/workspace/install/voxblox_rviz_plugin:/home/imit-learn/workspace/install/voxblox:/home/imit-learn/workspace/install/minkindr_conversions:/home/imit-learn/workspace/install/xmlrpcpp:/opt/ros/jazzy:/home/imit-learn/workspace/install/voxblox_msgs:/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/imit-learn/workspace/install/voxblox_ros/lib:/home/imit-learn/workspace/install/voxblox_rviz_plugin/lib:/home/imit-learn/workspace/install/voxblox/lib:/home/imit-learn/workspace/install/xmlrpcpp/lib:/home/imit-learn/workspace/install/voxblox_msgs/lib:/home/imit-learn/workspace/install/eigen_checks/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/imit-learn/workspace/install/voxblox_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/imit-learn/workspace/install/voxblox_msgs/lib/pkgconfig PYTHONPATH=/home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/imit-learn/workspace/install/voxblox_msgs/share _=/usr/bin/env /usr/bin/cmake --install /home/imit-learn/workspace/build/voxblox_skeleton
+[2.653s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(voxblox_skeleton)
+[2.653s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_skeleton' for CMake module files
+[2.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imit-learn/workspace/build/voxblox_skeleton' returned '0': AMENT_PREFIX_PATH=/home/imit-learn/workspace/install/voxblox_ros:/home/imit-learn/workspace/install/voxblox_rviz_plugin:/home/imit-learn/workspace/install/voxblox:/home/imit-learn/workspace/install/minkindr_conversions:/home/imit-learn/workspace/install/xmlrpcpp:/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/imit-learn/workspace/install/voxblox_ros:/home/imit-learn/workspace/install/voxblox_rviz_plugin:/home/imit-learn/workspace/install/voxblox:/home/imit-learn/workspace/install/minkindr_conversions:/home/imit-learn/workspace/install/xmlrpcpp:/opt/ros/jazzy:/home/imit-learn/workspace/install/voxblox_msgs:/home/imit-learn/workspace/install/minkindr:/home/imit-learn/workspace/install/eigen_checks:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/imit-learn/workspace/install/voxblox_ros/lib:/home/imit-learn/workspace/install/voxblox_rviz_plugin/lib:/home/imit-learn/workspace/install/voxblox/lib:/home/imit-learn/workspace/install/xmlrpcpp/lib:/home/imit-learn/workspace/install/voxblox_msgs/lib:/home/imit-learn/workspace/install/eigen_checks/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/imit-learn/workspace/install/voxblox_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/imit-learn/workspace/install/voxblox_msgs/lib/pkgconfig PYTHONPATH=/home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/imit-learn/workspace/install/voxblox_msgs/share _=/usr/bin/env /usr/bin/cmake --install /home/imit-learn/workspace/build/voxblox_skeleton
+[2.654s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_skeleton' for CMake config files
+[2.654s] Level 1:colcon.colcon_core.shell:create_environment_hook('voxblox_skeleton', 'cmake_prefix_path')
+[2.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/hook/cmake_prefix_path.ps1'
+[2.654s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/hook/cmake_prefix_path.dsv'
+[2.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/hook/cmake_prefix_path.sh'
+[2.654s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_skeleton/lib'
+[2.654s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_skeleton/bin'
+[2.654s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_skeleton/lib/pkgconfig/voxblox_skeleton.pc'
+[2.654s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_skeleton/lib/python3.12/site-packages'
+[2.655s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_skeleton/bin'
+[2.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/package.ps1'
+[2.655s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/package.dsv'
+[2.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/package.sh'
+[2.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/package.bash'
+[2.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/package.zsh'
+[2.655s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imit-learn/workspace/install/voxblox_skeleton/share/colcon-core/packages/voxblox_skeleton)
+[2.656s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(voxblox_skeleton)
+[2.656s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_skeleton' for CMake module files
+[2.656s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_skeleton' for CMake config files
+[2.656s] Level 1:colcon.colcon_core.shell:create_environment_hook('voxblox_skeleton', 'cmake_prefix_path')
+[2.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/hook/cmake_prefix_path.ps1'
+[2.656s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/hook/cmake_prefix_path.dsv'
+[2.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/hook/cmake_prefix_path.sh'
+[2.656s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_skeleton/lib'
+[2.657s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_skeleton/bin'
+[2.657s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_skeleton/lib/pkgconfig/voxblox_skeleton.pc'
+[2.657s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_skeleton/lib/python3.12/site-packages'
+[2.657s] Level 1:colcon.colcon_core.environment:checking '/home/imit-learn/workspace/install/voxblox_skeleton/bin'
+[2.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/package.ps1'
+[2.665s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/package.dsv'
+[2.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/package.sh'
+[2.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/package.bash'
+[2.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/imit-learn/workspace/install/voxblox_skeleton/share/voxblox_skeleton/package.zsh'
+[2.666s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imit-learn/workspace/install/voxblox_skeleton/share/colcon-core/packages/voxblox_skeleton)
+[2.666s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.666s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.666s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.666s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.669s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.669s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.669s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.669s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.670s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[2.670s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.671s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/imit-learn/workspace/install/local_setup.ps1'
+[2.671s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/imit-learn/workspace/install/_local_setup_util_ps1.py'
+[2.671s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/imit-learn/workspace/install/setup.ps1'
+[2.672s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/imit-learn/workspace/install/local_setup.sh'
+[2.672s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/imit-learn/workspace/install/_local_setup_util_sh.py'
+[2.672s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/imit-learn/workspace/install/setup.sh'
+[2.672s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/imit-learn/workspace/install/local_setup.bash'
+[2.673s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/imit-learn/workspace/install/setup.bash'
+[2.673s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/imit-learn/workspace/install/local_setup.zsh'
+[2.673s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/imit-learn/workspace/install/setup.zsh'

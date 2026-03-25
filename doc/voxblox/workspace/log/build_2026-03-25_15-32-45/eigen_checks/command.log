@@ -1,0 +1,4 @@
+Invoking command in '/home/imit-learn/workspace/build/eigen_checks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/imit-learn/workspace/build/eigen_checks -- -j32 -l32
+Invoked command in '/home/imit-learn/workspace/build/eigen_checks' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --build /home/imit-learn/workspace/build/eigen_checks -- -j32 -l32
+Invoking command in '/home/imit-learn/workspace/build/eigen_checks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --install /home/imit-learn/workspace/build/eigen_checks
+Invoked command in '/home/imit-learn/workspace/build/eigen_checks' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy _=/usr/bin/env /usr/bin/cmake --install /home/imit-learn/workspace/build/eigen_checks

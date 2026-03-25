@@ -1,0 +1,294 @@
+[  1%] Built target voxblox_msgs__rosidl_generator_type_description
+[  1%] Built target ament_cmake_python_copy_voxblox_msgs
+[ 25%] Built target voxblox_msgs__rosidl_generator_c
+[ 26%] Built target voxblox_msgs__cpp
+[ 35%] Built target voxblox_msgs__rosidl_typesupport_introspection_c
+[ 45%] Built target voxblox_msgs__rosidl_typesupport_c
+[ 54%] Built target voxblox_msgs__rosidl_typesupport_fastrtps_c
+[ 64%] Built target voxblox_msgs__rosidl_typesupport_introspection_cpp
+[ 75%] Built target voxblox_msgs__rosidl_typesupport_fastrtps_cpp
+[ 83%] Built target voxblox_msgs__rosidl_typesupport_cpp
+running egg_info
+writing voxblox_msgs.egg-info/PKG-INFO
+writing dependency_links to voxblox_msgs.egg-info/dependency_links.txt
+writing top-level names to voxblox_msgs.egg-info/top_level.txt
+[ 83%] Built target voxblox_msgs
+reading manifest file 'voxblox_msgs.egg-info/SOURCES.txt'
+writing manifest file 'voxblox_msgs.egg-info/SOURCES.txt'
+[ 83%] Built target ament_cmake_python_build_voxblox_msgs_egg
+[ 84%] Built target voxblox_msgs__py
+[ 92%] Built target voxblox_msgs__rosidl_generator_py
+[ 95%] Built target voxblox_msgs_s__rosidl_typesupport_introspection_c
+[ 97%] Built target voxblox_msgs_s__rosidl_typesupport_fastrtps_c
+[100%] Built target voxblox_msgs_s__rosidl_typesupport_c
+-- Install configuration: "Release"
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/ament_index/resource_index/rosidl_interfaces/voxblox_msgs
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/msg/Block.json
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/msg/Layer.json
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/msg/Mesh.json
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/msg/MeshBlock.json
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/msg/VoxelEvaluationDetails.json
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/srv/FilePath.json
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/srv
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/srv/file_path.h
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/srv/detail
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/srv/detail/file_path__type_support.c
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/srv/detail/file_path__functions.h
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/srv/detail/file_path__functions.c
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/srv/detail/file_path__description.c
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/srv/detail/file_path__type_support.h
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/srv/detail/file_path__struct.h
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/layer.h
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/voxel_evaluation_details.h
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/block.h
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/mesh_block.h
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/mesh.h
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/layer__type_support.h
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/mesh__struct.h
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/block__functions.h
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/voxel_evaluation_details__type_support.h
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/mesh__type_support.h
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/mesh__description.c
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/mesh_block__struct.h
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/mesh_block__type_support.c
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/layer__struct.h
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/voxel_evaluation_details__struct.h
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/block__type_support.c
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/voxel_evaluation_details__functions.c
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/layer__type_support.c
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/mesh_block__functions.c
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/block__functions.c
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/mesh__type_support.c
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/voxel_evaluation_details__description.c
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/mesh__functions.h
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/block__struct.h
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/mesh_block__type_support.h
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/layer__functions.h
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/layer__functions.c
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/mesh_block__description.c
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/block__description.c
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/voxel_evaluation_details__functions.h
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/mesh__functions.c
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/layer__description.c
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/mesh_block__functions.h
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/block__type_support.h
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/voxel_evaluation_details__type_support.c
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/environment/library_path.sh
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/environment/library_path.dsv
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/libvoxblox_msgs__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/imit-learn/workspace/install/voxblox_msgs/lib/libvoxblox_msgs__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs
+-- Up-to-date: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/srv
+-- Up-to-date: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/srv/detail
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/srv/detail/file_path__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/layer__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/block__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/mesh_block__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/voxel_evaluation_details__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/mesh__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/libvoxblox_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/imit-learn/workspace/install/voxblox_msgs/lib/libvoxblox_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs
+-- Up-to-date: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/srv
+-- Up-to-date: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/srv/detail
+-- Up-to-date: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/srv/detail/file_path__type_support.c
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/srv/detail/file_path__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg
+-- Up-to-date: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/block__rosidl_typesupport_introspection_c.h
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/mesh_block__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/mesh_block__type_support.c
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/mesh__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/block__type_support.c
+-- Up-to-date: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/layer__type_support.c
+-- Up-to-date: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/mesh__type_support.c
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/layer__rosidl_typesupport_introspection_c.h
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/voxel_evaluation_details__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/voxel_evaluation_details__type_support.c
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/libvoxblox_msgs__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/imit-learn/workspace/install/voxblox_msgs/lib/libvoxblox_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/libvoxblox_msgs__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/imit-learn/workspace/install/voxblox_msgs/lib/libvoxblox_msgs__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs
+-- Up-to-date: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/srv
+-- Up-to-date: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/srv/detail
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/srv/detail/file_path__traits.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/srv/detail/file_path__builder.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/srv/detail/file_path__struct.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/srv/detail/file_path__type_support.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/srv/file_path.hpp
+-- Up-to-date: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/mesh_block.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/voxel_evaluation_details.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/mesh.hpp
+-- Up-to-date: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/mesh_block__builder.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/block__struct.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/layer__traits.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/block__traits.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/voxel_evaluation_details__traits.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/mesh__traits.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/mesh_block__traits.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/mesh_block__struct.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/mesh__struct.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/mesh__type_support.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/layer__type_support.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/voxel_evaluation_details__type_support.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/block__builder.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/mesh__builder.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/mesh_block__type_support.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/layer__struct.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/layer__builder.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/voxel_evaluation_details__builder.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/voxel_evaluation_details__struct.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/block__type_support.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/layer.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/block.hpp
+-- Up-to-date: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs
+-- Up-to-date: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/srv
+-- Up-to-date: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/srv/detail
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/srv/detail/file_path__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/srv/detail/dds_fastrtps
+-- Up-to-date: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/voxel_evaluation_details__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/layer__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/mesh__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/mesh_block__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/block__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/dds_fastrtps
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/libvoxblox_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/imit-learn/workspace/install/voxblox_msgs/lib/libvoxblox_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs
+-- Up-to-date: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/srv
+-- Up-to-date: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/srv/detail
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/srv/detail/file_path__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/srv/detail/file_path__type_support.cpp
+-- Up-to-date: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg
+-- Up-to-date: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/mesh_block__type_support.cpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/block__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/mesh_block__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/layer__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/mesh__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/voxel_evaluation_details__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/layer__type_support.cpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/voxel_evaluation_details__type_support.cpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/mesh__type_support.cpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/include/voxblox_msgs/voxblox_msgs/msg/detail/block__type_support.cpp
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/libvoxblox_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/imit-learn/workspace/install/voxblox_msgs/lib/libvoxblox_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/libvoxblox_msgs__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/imit-learn/workspace/install/voxblox_msgs/lib/libvoxblox_msgs__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/environment/pythonpath.sh
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/environment/pythonpath.dsv
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs-0.0.0-py3.12.egg-info
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/voxblox_msgs_s__rosidl_typesupport_c.so
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/_voxblox_msgs_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/voxblox_msgs_s__rosidl_typesupport_fastrtps_c.so
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/_voxblox_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/srv
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/srv/_file_path_s.c
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/srv/_file_path.py
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/srv/__init__.py
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/msg
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/msg/_mesh.py
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/msg/_mesh_block_s.c
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/msg/_voxel_evaluation_details_s.c
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/msg/_block.py
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/msg/_voxel_evaluation_details.py
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/msg/_mesh_s.c
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/msg/_layer.py
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/msg/_layer_s.c
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/msg/_block_s.c
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/msg/__init__.py
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/msg/_mesh_block.py
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/voxblox_msgs_s__rosidl_typesupport_introspection_c.so
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/_voxblox_msgs_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/__init__.py
+Listing '/home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs'...
+Compiling '/home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/__init__.py'...
+Listing '/home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/msg'...
+Compiling '/home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/msg/__init__.py'...
+Compiling '/home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/msg/_block.py'...
+Compiling '/home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/msg/_layer.py'...
+Compiling '/home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/msg/_mesh.py'...
+Compiling '/home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/msg/_mesh_block.py'...
+Compiling '/home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/msg/_voxel_evaluation_details.py'...
+Listing '/home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/srv'...
+Compiling '/home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/srv/__init__.py'...
+Compiling '/home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/srv/_file_path.py'...
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/voxblox_msgs_s__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/voxblox_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/voxblox_msgs_s__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/voxblox_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/voxblox_msgs_s__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/imit-learn/workspace/install/voxblox_msgs/lib/python3.12/site-packages/voxblox_msgs/voxblox_msgs_s__rosidl_typesupport_c.so" to ""
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/lib/libvoxblox_msgs__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/imit-learn/workspace/install/voxblox_msgs/lib/libvoxblox_msgs__rosidl_generator_py.so" to ""
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/msg/Block.idl
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/msg/Layer.idl
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/msg/Mesh.idl
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/msg/MeshBlock.idl
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/msg/VoxelEvaluationDetails.idl
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/srv/FilePath.idl
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/msg/Block.msg
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/msg/Layer.msg
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/msg/Mesh.msg
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/msg/MeshBlock.msg
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/msg/VoxelEvaluationDetails.msg
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/srv/FilePath.srv
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/ament_index/resource_index/package_run_dependencies/voxblox_msgs
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/ament_index/resource_index/parent_prefix_path/voxblox_msgs
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/environment/ament_prefix_path.sh
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/environment/ament_prefix_path.dsv
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/environment/path.sh
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/environment/path.dsv
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/local_setup.bash
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/local_setup.sh
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/local_setup.zsh
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/local_setup.dsv
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/package.dsv
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/ament_index/resource_index/packages/voxblox_msgs
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/cmake/export_voxblox_msgs__rosidl_generator_cExport.cmake
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/cmake/export_voxblox_msgs__rosidl_generator_cExport-release.cmake
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/cmake/export_voxblox_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/cmake/export_voxblox_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/cmake/voxblox_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/cmake/voxblox_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/cmake/voxblox_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/cmake/voxblox_msgs__rosidl_typesupport_cExport-release.cmake
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/cmake/export_voxblox_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/cmake/export_voxblox_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/cmake/export_voxblox_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/cmake/voxblox_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/cmake/voxblox_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/cmake/voxblox_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/cmake/voxblox_msgs__rosidl_typesupport_cppExport-release.cmake
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/cmake/export_voxblox_msgs__rosidl_generator_pyExport.cmake
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/cmake/export_voxblox_msgs__rosidl_generator_pyExport-release.cmake
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/cmake/voxblox_msgsConfig.cmake
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/cmake/voxblox_msgsConfig-version.cmake
+-- Installing: /home/imit-learn/workspace/install/voxblox_msgs/share/voxblox_msgs/package.xml

@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from voxblox_msgs/msg/MeshBlock.msg
+// generated code does not contain a copyright notice
+
+
+module voxblox_msgs {
+  module msg {
+    typedef int64 int64__3[3];
+    @verbatim (language="comment", text=
+      "vertex positions rounded to nearest BLOCK_EDGE_LENGTH/65535 " "\n"
+      "no alpha information")
+    struct MeshBlock {
+      @verbatim (language="comment", text=
+        "Index of meshed points in block map")
+      int64__3 index;
+
+      @verbatim (language="comment", text=
+        "Triangle information (always in groups of 3)")
+      sequence<uint16> x;
+
+      sequence<uint16> y;
+
+      sequence<uint16> z;
+
+      @verbatim (language="comment", text=
+        "Color information may be missing")
+      sequence<uint8> r;
+
+      sequence<uint8> g;
+
+      sequence<uint8> b;
+    };
+  };
+};

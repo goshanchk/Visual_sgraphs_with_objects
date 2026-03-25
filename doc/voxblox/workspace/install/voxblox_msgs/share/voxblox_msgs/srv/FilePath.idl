@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from voxblox_msgs/srv/FilePath.srv
+// generated code does not contain a copyright notice
+
+
+module voxblox_msgs {
+  module srv {
+    struct FilePath_Request {
+      string file_path;
+    };
+    struct FilePath_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

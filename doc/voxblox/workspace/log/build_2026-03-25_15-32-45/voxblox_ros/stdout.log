@@ -1,0 +1,49 @@
+[ 36%] Built target voxblox_ros
+[ 47%] Built target intensity_server
+[ 57%] Built target esdf_server
+[ 68%] Built target voxblox_eval
+[ 78%] Built target tsdf_server
+[ 89%] Built target visualize_tsdf
+[100%] Built target simulation_eval
+-- Install configuration: "RelWithDebInfo"
+-- Execute custom install script
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/include/voxblox_ros/conversions.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/include/voxblox_ros/conversions_inl.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/include/voxblox_ros/esdf_server.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/include/voxblox_ros/intensity_server.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/include/voxblox_ros/intensity_vis.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/include/voxblox_ros/interactive_slider.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/include/voxblox_ros/mesh_pcl.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/include/voxblox_ros/mesh_vis.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/include/voxblox_ros/ptcloud_vis.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/include/voxblox_ros/ros_params.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/include/voxblox_ros/simulation_server.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/include/voxblox_ros/transformer.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/include/voxblox_ros/tsdf_server.h
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/share/voxblox_ros/environment/library_path.sh
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/share/voxblox_ros/environment/library_path.dsv
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/lib/libvoxblox_ros.a
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/lib/voxblox_ros/voxblox_eval
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/lib/voxblox_ros/tsdf_server
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/lib/voxblox_ros/esdf_server
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/lib/voxblox_ros/intensity_server
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/lib/voxblox_ros/simulation_eval
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/lib/voxblox_ros/visualize_tsdf
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/share/ament_index/resource_index/package_run_dependencies/voxblox_ros
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/share/ament_index/resource_index/parent_prefix_path/voxblox_ros
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/share/voxblox_ros/environment/ament_prefix_path.sh
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/share/voxblox_ros/environment/ament_prefix_path.dsv
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/share/voxblox_ros/environment/path.sh
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/share/voxblox_ros/environment/path.dsv
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/share/voxblox_ros/local_setup.bash
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/share/voxblox_ros/local_setup.sh
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/share/voxblox_ros/local_setup.zsh
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/share/voxblox_ros/local_setup.dsv
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/share/voxblox_ros/package.dsv
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/share/ament_index/resource_index/packages/voxblox_ros
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/share/voxblox_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/share/voxblox_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/share/voxblox_ros/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/share/voxblox_ros/cmake/voxblox_rosConfig.cmake
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/share/voxblox_ros/cmake/voxblox_rosConfig-version.cmake
+-- Symlinking: /home/imit-learn/workspace/install/voxblox_ros/share/voxblox_ros/package.xml
