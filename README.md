@@ -10,7 +10,7 @@ This repository is used for:
 
 - RGB-D SLAM on TUM RGB-D data
 - Semantic scene segmentation (YOSO)
-- Optional object segmentation (`off` / YOLOv8-seg / Mask R-CNN / YOLOv6-seg)
+- Optional object segmentation (`off` / YOLOv8-seg / Mask R-CNN / YOLOv6-seg in scripts folder)
 - Trajectory and object-level evaluation
 
 ---
@@ -140,7 +140,7 @@ bash evaluation/eval_tum_evo.sh \
 > APE measures global absolute trajectory drift.
 > RPE measures local relative drift for a selected delta (1 meter).
 
-### Object Proxy Metrics (no GT)
+### Object Proxy Metrics (no GT data)
 
 ```bash
 bash evaluation/eval_object_proxy.sh \
