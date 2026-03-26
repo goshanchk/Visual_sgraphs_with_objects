@@ -1,0 +1,14 @@
+object_segmenter_deeplabv3plus:
+  ros__parameters:
+    device: cpu
+    confidence_threshold: 0.35
+    visualize: true
+    min_depth_m: 0.10
+    max_depth_m: 8.0
+    marker_scale: 0.18
+    min_component_area: 250
+    track_max_age_sec: 1.5
+    track_min_iou: 0.05
+    track_center_dist_px: 140.0
+    track_position_smoothing: 0.80
+    allowed_classes: []

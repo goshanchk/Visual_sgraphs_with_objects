@@ -983,8 +983,8 @@ void publishStructuralElements(std::vector<ORB_SLAM3::Room *> rooms,
 
     // Visualization markers
     visualization_msgs::msg::MarkerArray roomArray, floorArray;
-    roomArray.markers.resize(numRooms);
-    floorArray.markers.resize(numFloors);
+    roomArray.markers.reserve(static_cast<size_t>(numRooms) * 4);
+    floorArray.markers.reserve(static_cast<size_t>(numFloors) * 3);
 
     // Publish rooms, if any
     if (numRooms > 0)

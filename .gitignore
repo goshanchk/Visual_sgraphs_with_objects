@@ -25,7 +25,7 @@ Vocabulary/ORBvoc.txt
 build/
 
 lib/
-
+_pycache_
 cmake_modules/
 cmake-build-debug/
 
@@ -49,3 +49,32 @@ borrar/*
 
 !Dockerfile
 docker/docker-compose.yml
+# Final project hygiene
+# Keep heavyweight runtime artifacts out of Git.
+data/**
+!data/README.md
+results/**
+!results/README.md
+models/**
+!models/README.md
+
+# Raw dataset and bags
+*.bag
+*.db3
+*.mcap
+*.sqlite3
+*.tgz
+*.zip
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+
+# Generated media/logs
+*.mp4
+*.avi
+*.mov
+*.png
+*.jpg
+logs/

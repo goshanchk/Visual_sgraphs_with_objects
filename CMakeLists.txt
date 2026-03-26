@@ -259,7 +259,9 @@ add_ros2_node(ros_rgbd          src/ros_rgbd.cc)
 add_ros2_node(ros_rgbd_inertial src/ros_rgbd_inertial.cc)
 
 install(PROGRAMS
-  scripts/object_segmenter_yolo.py
+  scripts/object_segmenter_yolo8seg.py
+  scripts/object_segmenter_maskrcnn.py
+  scripts/object_segmenter_yolov6seg.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

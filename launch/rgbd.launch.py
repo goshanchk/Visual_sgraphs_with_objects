@@ -26,7 +26,7 @@ def generate_launch_description():
                 "object_segmenter",
                 default_value="off",
                 description="Optional object detector/segmenter for movable objects",
-                choices=["off", "yolo"],
+                choices=["off", "yolo", "maskrcnn", "deeplabv3plus"],
             ),
             DeclareLaunchArgument(
                 "object_model_file",
@@ -243,6 +243,51 @@ def generate_launch_description():
                         "/config/object_segmentation_yolo.yaml",
                     ],
                     {"model_path": LaunchConfiguration("object_model_file")},
+                ],
+                remappings=[
+                    ("image", LaunchConfiguration("rgb_image_topic")),
+                    ("depth", LaunchConfiguration("depth_image_topic")),
+                    ("camera_info", LaunchConfiguration("rgb_camera_info_topic")),
+                ],
+            ),
+            Node(
+                condition=IfCondition(
+                    EqualsSubstitution(
+                        LaunchConfiguration("object_segmenter"), "maskrcnn"
+                    )
+                ),
+                name="object_segmenter_maskrcnn",
+                package="vs_graphs",
+                executable="object_segmenter_maskrcnn.py",
+                output="screen",
+                parameters=[
+                    [
+                        get_package_share_directory("vs_graphs"),
+                        "/config/object_segmentation_maskrcnn.yaml",
+                    ],
+                    {"model_path": LaunchConfiguration("object_model_file")},
+                ],
+                remappings=[
+                    ("image", LaunchConfiguration("rgb_image_topic")),
+                    ("depth", LaunchConfiguration("depth_image_topic")),
+                    ("camera_info", LaunchConfiguration("rgb_camera_info_topic")),
+                ],
+            ),
+            Node(
+                condition=IfCondition(
+                    EqualsSubstitution(
+                        LaunchConfiguration("object_segmenter"), "deeplabv3plus"
+                    )
+                ),
+                name="object_segmenter_deeplabv3plus",
+                package="vs_graphs",
+                executable="object_segmenter_deeplabv3plus.py",
+                output="screen",
+                parameters=[
+                    [
+                        get_package_share_directory("vs_graphs"),
+                        "/config/object_segmentation_deeplabv3plus.yaml",
+                    ],
                 ],
                 remappings=[
                     ("image", LaunchConfiguration("rgb_image_topic")),

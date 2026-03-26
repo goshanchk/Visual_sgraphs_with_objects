@@ -1,18 +1,3 @@
-# Modified by Raul Mur-Artal
-# Software License Agreement (BSD License)
-# Copyright (c) 2013, Juergen Sturm, TUM. All rights reserved.
-#
-# Redistribution and use in source/binary forms, with or without modification, are permitted provided that:
-#  * Redistributions of source code retain this notice and disclaimer.
-#  * Redistributions in binary form reproduce this notice in docs and/or materials.
-#  * Neither TUM nor contributors may be used to endorse/promote derived products without prior written permission.
-#
-# THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR
-# CONTRIBUTORS BE LIABLE FOR ANY DAMAGES ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE.
-#
-# Requires: sudo apt-get install python-argparse
-
-
 """
 This script computes the absolute trajectory error from the ground truth
 trajectory and the estimated trajectory.

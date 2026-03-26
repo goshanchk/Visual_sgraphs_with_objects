@@ -13,9 +13,6 @@ from rclpy.node import Node
 from sensor_msgs.msg import CameraInfo, Image
 from visualization_msgs.msg import Marker, MarkerArray
 
-# PyTorch 2.6 defaults to weights_only=True, which breaks loading older
-# Ultralytics checkpoints such as yolov8n-seg.pt unless trusted globals are
-# allow-listed. We opt out here because the model file is user-provided.
 os.environ.setdefault("TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD", "1")
 
 try:
@@ -137,7 +134,7 @@ class ObjectSegmenterYolo(Node):
                 device=self.device,
                 verbose=False,
             )
-        except Exception as exc:  # pragma: no cover
+        except Exception as exc: 
             self.get_logger().error(f"Object segmentation callback failed: {exc}")
             return
 
