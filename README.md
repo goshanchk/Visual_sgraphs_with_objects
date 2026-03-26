@@ -3,6 +3,8 @@
 Visual S-Graphs pipeline for RGB-D SLAM, semantic scene understanding and optional object segmentation.
 
 ---
+## Results of vS-Graphs with object detection
+![vS-Graphs with object detection](vS-Graphs%20with%20object%20detection.gif)
 
 ## Project Scope
 
